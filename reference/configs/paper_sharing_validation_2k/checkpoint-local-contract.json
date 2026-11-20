@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "scope": "atomic checkpoint and exact-resume local integration; not CUDA readiness or execution authorization",
+  "roundtrip_and_next_update": "exact CPU tensors, optimizer, scheduler, Torch/Python/NumPy RNG and next training window",
+  "fixture": "real model classes, production Q/KV width and T1024, one layer/FFN128/vocab64/CPU FP32/B1 accumulation2",
+  "publication": "exclusive per-run writer lock; unique retained partial directory; fsync files/directories; complete marker before same-filesystem directory rename",
+  "external_trust_anchor": "caller must provide expected checkpoint-manifest SHA and complete independently retained run identity",
+  "resume": "validate all file hashes and state identities before restore; weights_only tensor load; restore RNG last",
+  "cadence": 100,
+  "protected_steps": [500, 2000],
+  "keep_latest": 1,
+  "pruning": "only validated same-run ordinary step directories after new checkpoint publication; append-only deletion ledger",
+  "partial_failure": "preserve failed partials; no overwrite, stale-lock removal, implicit retry or source-change exception",
+  "primary_artifact_reads_or_scoring": false,
+  "cuda_bf16_verified": false,
+  "full_gate_a_passed": false,
+  "paid_execution_authorized": false
+}

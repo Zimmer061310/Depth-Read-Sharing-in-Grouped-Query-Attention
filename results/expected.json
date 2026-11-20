@@ -1,0 +1,165 @@
+{
+  "followup_contrasts": [
+    {
+      "all_negative": true,
+      "candidate": "AAAB",
+      "cross_driver": false,
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.06832189040595733,
+      "numerical_gate": true,
+      "per_seed": {
+        "123": -0.081934341631286,
+        "2026": -0.065728749613718,
+        "613": -0.057302579972868
+      },
+      "ppl_reduction_percent": 6.604020751012129,
+      "reference": "AAAA",
+      "role": "frozen two-read family",
+      "sample_sd": 0.012518953829116853
+    },
+    {
+      "all_negative": true,
+      "candidate": "ABAA",
+      "cross_driver": true,
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.007976855492394,
+      "numerical_gate": true,
+      "per_seed": {
+        "123": -0.009122364276432,
+        "2026": -0.001001773078525,
+        "613": -0.013806429122225
+      },
+      "ppl_reduction_percent": 0.7945124807039017,
+      "reference": "AAAA",
+      "role": "frozen two-read family",
+      "sample_sd": 0.006478730344758678
+    },
+    {
+      "all_negative": true,
+      "candidate": "AABA",
+      "cross_driver": true,
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.041901286041323,
+      "numerical_gate": true,
+      "per_seed": {
+        "123": -0.046239963151448,
+        "2026": -0.038864443366204,
+        "613": -0.040599451606317
+      },
+      "ppl_reduction_percent": 4.103556092363847,
+      "reference": "AAAA",
+      "role": "frozen two-read family",
+      "sample_sd": 0.003856248526451189
+    },
+    {
+      "all_negative": true,
+      "candidate": "AABB",
+      "cross_driver": true,
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.014568158686088333,
+      "numerical_gate": true,
+      "per_seed": {
+        "123": -0.021268791416204,
+        "2026": -0.002119058553956,
+        "613": -0.020316626088105
+      },
+      "ppl_reduction_percent": 1.4462556494119427,
+      "reference": "AAAA",
+      "role": "frozen two-read family",
+      "sample_sd": 0.01079174338454642
+    },
+    {
+      "all_negative": true,
+      "candidate": "ABBA",
+      "cross_driver": true,
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.053028047277896,
+      "numerical_gate": true,
+      "per_seed": {
+        "123": -0.059532332392033,
+        "2026": -0.0480277925505235,
+        "613": -0.0515240168911315
+      },
+      "ppl_reduction_percent": 5.164658662244492,
+      "reference": "AAAA",
+      "role": "frozen two-read family",
+      "sample_sd": 0.005897897065433839
+    },
+    {
+      "all_negative": true,
+      "candidate": "AABC",
+      "cross_driver": false,
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.07081533416775283,
+      "numerical_gate": true,
+      "per_seed": {
+        "123": -0.0892931269975125,
+        "2026": -0.056457373859571,
+        "613": -0.066695501646175
+      },
+      "ppl_reduction_percent": 6.83660828038043,
+      "reference": "AAAA",
+      "role": "descriptive",
+      "sample_sd": 0.01680108437090733
+    },
+    {
+      "all_negative": true,
+      "candidate": "ABBC",
+      "cross_driver": false,
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.06730221672921667,
+      "numerical_gate": true,
+      "per_seed": {
+        "123": -0.073453835375524,
+        "2026": -0.066798912221984,
+        "613": -0.061653902590142
+      },
+      "ppl_reduction_percent": 6.508738759444843,
+      "reference": "AAAA",
+      "role": "descriptive",
+      "sample_sd": 0.005916045132107579
+    }
+  ],
+  "original_classification": "topology_mechanistic_study",
+  "original_primary_contrasts": [
+    {
+      "all_negative": false,
+      "candidate": "ABBC",
+      "ddof": 1,
+      "margin": -0.0025,
+      "mean": -0.000168745535044,
+      "numerical_gate": false,
+      "per_seed": {
+        "123": 0.008266825942192,
+        "2026": -0.002621983738462,
+        "613": -0.006151078808862
+      },
+      "reference": "AAAB",
+      "role": "primary",
+      "sample_sd": 0.007515502485838758
+    },
+    {
+      "all_negative": false,
+      "candidate": "ABBC",
+      "ddof": 1,
+      "margin": -0.0015,
+      "mean": 0.0025323863465143335,
+      "numerical_gate": false,
+      "per_seed": {
+        "123": 0.015785704246251,
+        "2026": -0.011382227249821,
+        "613": 0.003193682043113
+      },
+      "reference": "AABC",
+      "role": "allocation",
+      "sample_sd": 0.013596032856777384
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Recorded scientific model stack. Install an appropriate PyTorch wheel for
+# your platform; the scientific CUDA runs used PyTorch 2.8.0+cu128.
+torch==2.8.0
+transformers==4.57.6
+numpy>=2.0,<3
+# Data preparation additionally uses datasets==4.5.0 and pyarrow.

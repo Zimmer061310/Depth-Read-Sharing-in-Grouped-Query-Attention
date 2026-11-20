@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "study_id": "paper-sharing-fresh-2k-v1",
+  "implementation_authorization": "author said implement after the mandatory-safeguard freeze",
+  "scope": "isolated Gate A implementation and disposable CPU tests only",
+  "query_execution": "two-slot-v1",
+  "local_fixture": {"hidden_size": 1280, "head_dim": 80, "query_heads": 16, "kv_heads": 8, "num_layers": 2, "intermediate_size": 128, "vocab_size": 64},
+  "fp32_projection_forward": {"atol": 0.000005, "rtol": 0.00001},
+  "fp32_projection_backward": {"atol": 0.00001, "rtol": 0.00002},
+  "equal_route_forward": {"atol": 0.0, "rtol": 0.0},
+  "checkpoint_roundtrip": {"atol": 0.0, "rtol": 0.0},
+  "cuda_bf16_production_contract": null,
+  "full_36_layer_validation_performed": false,
+  "real_model_gate_passed": false,
+  "paid_preflight_authorized": false,
+  "fresh_training_authorized": false,
+  "primary_artifact_accessed": false
+}

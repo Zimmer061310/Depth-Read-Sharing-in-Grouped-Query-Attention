@@ -1,0 +1,43 @@
+{
+  "format_version": 1,
+  "study_id": "paper-sharing-fresh-2k-v1",
+  "scope": "real-data-integration-only-v1",
+  "authorization": {
+    "approved": false,
+    "human_message_reference": null,
+    "manual_retained_disk_stop": false,
+    "scientific_training": false,
+    "primary_scoring": false
+  },
+  "source_commit": null,
+  "preflight_ledger_sha256": null,
+  "run_matrix": [],
+  "bundle_manifest_sha256": "c69db984bdfcc2958962fd5cddb04065b622e8e71bb2933654f5435c7e36be40",
+  "bundle": null,
+  "tokenizer_snapshot": null,
+  "development_artifact": null,
+  "output": null,
+  "provider": {"offer_verified": false, "retained_disk": true, "instance_id": null, "hostname": null, "gpu_uuid": null},
+  "environment": {
+    "HF_HUB_OFFLINE": "1", "TRANSFORMERS_OFFLINE": "1",
+    "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True", "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "ATTNRES_FUSED": "0", "WANDB_MODE": "online", "CUDA_VISIBLE_DEVICES": null
+  },
+  "runtime": {"pending_probe": true},
+  "metadata_probe": null,
+  "metadata_probe_sha256": null,
+  "allocation_started_at": null,
+  "compute_cutoff": null,
+  "provider_off_deadline": null,
+  "maximum_billed_hours": 4,
+  "price_cny_per_gpu_hour": null,
+  "prior_study_gpu_hours": null,
+  "prior_study_compute_cny": null,
+  "backup_host": null,
+  "wandb_run_ids": {},
+  "integration_receipt": null,
+  "integration_receipt_sha256": null,
+  "seconds_per_update": null,
+  "overhead_hours": null,
+  "resume_from": {}
+}

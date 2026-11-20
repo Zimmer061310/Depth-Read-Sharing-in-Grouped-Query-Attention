@@ -1,0 +1,5133 @@
+{
+  "artifact": "followup",
+  "checkpoint_manifest_sha256": "68faf272ad7cc8de27842152a15ac1dab4e79d491ef87db348e065deab5cc2ea",
+  "condition": "ABBC",
+  "driver": "595.71.05",
+  "evaluation_sha256": "bfa444cb2fa36625ebea3b5d7dd3e50ec0bc9ec39572063aaa3756589441b0f5",
+  "loss": 4.163089233269848,
+  "per_sequence": [
+    {
+      "loss_sum": 4754.911959888428,
+      "sequence": 0,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4199.2405045027845,
+      "sequence": 1,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3855.7910255296156,
+      "sequence": 2,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4382.591853296384,
+      "sequence": 3,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4989.2513634518255,
+      "sequence": 4,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3930.5365342099685,
+      "sequence": 5,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4815.084630051162,
+      "sequence": 6,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4700.841181142954,
+      "sequence": 7,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4605.18063036364,
+      "sequence": 8,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4366.951100368518,
+      "sequence": 9,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4594.035817950615,
+      "sequence": 10,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4163.794378213934,
+      "sequence": 11,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4131.71245577815,
+      "sequence": 12,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4437.901028482709,
+      "sequence": 13,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4331.715411576501,
+      "sequence": 14,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4557.534871917218,
+      "sequence": 15,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4573.4858992411755,
+      "sequence": 16,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3992.646417810698,
+      "sequence": 17,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4442.131276136264,
+      "sequence": 18,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4646.95298457332,
+      "sequence": 19,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4040.5578630886157,
+      "sequence": 20,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4242.632193688769,
+      "sequence": 21,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3737.861757187755,
+      "sequence": 22,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4314.25185933488,
+      "sequence": 23,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4055.6106191720464,
+      "sequence": 24,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4265.29034955916,
+      "sequence": 25,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4328.294769169879,
+      "sequence": 26,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4197.947045442415,
+      "sequence": 27,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3908.137324250303,
+      "sequence": 28,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3429.9690103819303,
+      "sequence": 29,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3879.3727133306675,
+      "sequence": 30,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4049.4160784527776,
+      "sequence": 31,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4003.7923460514285,
+      "sequence": 32,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4240.8931765219895,
+      "sequence": 33,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4936.050440175459,
+      "sequence": 34,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4334.674994757865,
+      "sequence": 35,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3578.2822091683047,
+      "sequence": 36,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4776.794577634893,
+      "sequence": 37,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4200.189871973824,
+      "sequence": 38,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4468.705378183164,
+      "sequence": 39,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4596.317521315883,
+      "sequence": 40,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4448.364336393308,
+      "sequence": 41,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4524.4623962005135,
+      "sequence": 42,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4478.6037888024,
+      "sequence": 43,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4706.78539337276,
+      "sequence": 44,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4542.022717592539,
+      "sequence": 45,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4556.147078524955,
+      "sequence": 46,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5035.949178923169,
+      "sequence": 47,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4157.80049190612,
+      "sequence": 48,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3890.1207253322937,
+      "sequence": 49,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4020.998468066915,
+      "sequence": 50,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3705.753093744279,
+      "sequence": 51,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4271.306573007721,
+      "sequence": 52,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4382.307246153243,
+      "sequence": 53,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4623.119082197547,
+      "sequence": 54,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4147.797249005409,
+      "sequence": 55,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4118.457701366395,
+      "sequence": 56,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4207.100564339664,
+      "sequence": 57,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5066.632453555707,
+      "sequence": 58,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4593.690676093218,
+      "sequence": 59,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4635.591232447769,
+      "sequence": 60,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4916.159189525526,
+      "sequence": 61,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4224.093273862847,
+      "sequence": 62,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3968.3585992242442,
+      "sequence": 63,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3864.258912323672,
+      "sequence": 64,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4357.685349052073,
+      "sequence": 65,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3113.382550023758,
+      "sequence": 66,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4211.264122440247,
+      "sequence": 67,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3699.932485908619,
+      "sequence": 68,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3771.8376993720594,
+      "sequence": 69,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4187.543290467584,
+      "sequence": 70,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3448.9415797689,
+      "sequence": 71,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3509.0248133644345,
+      "sequence": 72,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3718.159091987298,
+      "sequence": 73,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4199.95004561462,
+      "sequence": 74,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4241.569485533866,
+      "sequence": 75,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3422.896104914369,
+      "sequence": 76,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4072.500814174884,
+      "sequence": 77,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3767.060342203942,
+      "sequence": 78,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3477.1402690534014,
+      "sequence": 79,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3910.5751586038823,
+      "sequence": 80,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4939.974887646269,
+      "sequence": 81,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4800.680197926238,
+      "sequence": 82,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5060.148027186049,
+      "sequence": 83,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4098.981851094402,
+      "sequence": 84,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4795.948687798809,
+      "sequence": 85,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4669.378486934351,
+      "sequence": 86,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4785.760087639792,
+      "sequence": 87,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4777.097032641177,
+      "sequence": 88,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4926.945026082918,
+      "sequence": 89,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4827.685133572784,
+      "sequence": 90,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4647.491101731081,
+      "sequence": 91,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4980.307556574291,
+      "sequence": 92,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4988.676685294136,
+      "sequence": 93,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4879.044519616757,
+      "sequence": 94,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4723.983345461194,
+      "sequence": 95,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4874.079599594697,
+      "sequence": 96,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4293.576509894105,
+      "sequence": 97,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4719.182640983025,
+      "sequence": 98,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4306.891136230901,
+      "sequence": 99,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5093.174968769134,
+      "sequence": 100,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4155.882589620538,
+      "sequence": 101,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4871.384863998101,
+      "sequence": 102,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4280.029095824342,
+      "sequence": 103,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3891.6731940577447,
+      "sequence": 104,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4114.785328743979,
+      "sequence": 105,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4198.184060312633,
+      "sequence": 106,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4136.594945811201,
+      "sequence": 107,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4339.353094821039,
+      "sequence": 108,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4451.244300808408,
+      "sequence": 109,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4224.658170521259,
+      "sequence": 110,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4096.3286265996285,
+      "sequence": 111,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4344.512939895969,
+      "sequence": 112,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4344.715868704952,
+      "sequence": 113,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4371.438581539318,
+      "sequence": 114,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4081.19399533706,
+      "sequence": 115,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3935.7518491155024,
+      "sequence": 116,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3835.366181915728,
+      "sequence": 117,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4349.217120718793,
+      "sequence": 118,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4338.375932342606,
+      "sequence": 119,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4239.30184005457,
+      "sequence": 120,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4310.76500303857,
+      "sequence": 121,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4180.0336891995175,
+      "sequence": 122,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3416.072551515419,
+      "sequence": 123,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3072.902354635764,
+      "sequence": 124,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3438.3263136518653,
+      "sequence": 125,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4688.93751993007,
+      "sequence": 126,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4836.693871607073,
+      "sequence": 127,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3971.257020335179,
+      "sequence": 128,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3850.9005700760754,
+      "sequence": 129,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3908.7597301830538,
+      "sequence": 130,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4107.325979493326,
+      "sequence": 131,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4961.240319529083,
+      "sequence": 132,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4485.33287654107,
+      "sequence": 133,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3846.8825234605465,
+      "sequence": 134,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4281.543569764239,
+      "sequence": 135,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4457.881015670719,
+      "sequence": 136,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4101.394190510036,
+      "sequence": 137,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4215.058936962741,
+      "sequence": 138,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3911.3835192996776,
+      "sequence": 139,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4171.561962539039,
+      "sequence": 140,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4294.64963527245,
+      "sequence": 141,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3954.814878416015,
+      "sequence": 142,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3403.799398942152,
+      "sequence": 143,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4578.742312982911,
+      "sequence": 144,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4057.8404368988704,
+      "sequence": 145,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3960.4500163647463,
+      "sequence": 146,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3703.858393774437,
+      "sequence": 147,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4174.470953144133,
+      "sequence": 148,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4300.543691042811,
+      "sequence": 149,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4116.271602126304,
+      "sequence": 150,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3609.593540386297,
+      "sequence": 151,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4568.822427751729,
+      "sequence": 152,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4031.6333423643373,
+      "sequence": 153,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4321.73383979802,
+      "sequence": 154,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4508.315067642718,
+      "sequence": 155,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5034.99686712632,
+      "sequence": 156,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4336.203353136778,
+      "sequence": 157,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4719.696746026399,
+      "sequence": 158,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4863.160246317508,
+      "sequence": 159,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5061.819916192791,
+      "sequence": 160,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4787.715176015161,
+      "sequence": 161,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4298.657430197229,
+      "sequence": 162,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4559.6881859909045,
+      "sequence": 163,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4541.729561632266,
+      "sequence": 164,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4263.5796744481195,
+      "sequence": 165,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4132.812093605287,
+      "sequence": 166,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4416.096442488473,
+      "sequence": 167,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4563.58230896038,
+      "sequence": 168,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4554.790861224406,
+      "sequence": 169,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4602.589208915597,
+      "sequence": 170,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4356.789877899457,
+      "sequence": 171,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4053.8119976166054,
+      "sequence": 172,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4272.207226737635,
+      "sequence": 173,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4435.473723120289,
+      "sequence": 174,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4702.402804934885,
+      "sequence": 175,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4149.3686537773465,
+      "sequence": 176,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4316.259574778378,
+      "sequence": 177,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4062.949400300393,
+      "sequence": 178,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4332.927039268892,
+      "sequence": 179,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4058.9682817595312,
+      "sequence": 180,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3212.825199009152,
+      "sequence": 181,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4388.948685848853,
+      "sequence": 182,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4294.32013960008,
+      "sequence": 183,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3627.340930362523,
+      "sequence": 184,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3745.1577334464528,
+      "sequence": 185,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3827.908587582875,
+      "sequence": 186,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4375.315539972478,
+      "sequence": 187,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3805.6687300276826,
+      "sequence": 188,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3642.0217330431915,
+      "sequence": 189,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4232.582942153094,
+      "sequence": 190,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3862.7629913040437,
+      "sequence": 191,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3677.0506190088636,
+      "sequence": 192,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3617.98397100289,
+      "sequence": 193,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3652.005094773951,
+      "sequence": 194,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3787.7317983789835,
+      "sequence": 195,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3752.86595071583,
+      "sequence": 196,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3818.182224260643,
+      "sequence": 197,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3823.1270523038693,
+      "sequence": 198,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4412.6596274748445,
+      "sequence": 199,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4208.459423594642,
+      "sequence": 200,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4105.5430417456955,
+      "sequence": 201,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4717.974086205941,
+      "sequence": 202,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4609.927538927877,
+      "sequence": 203,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4940.903244575486,
+      "sequence": 204,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4827.904006908881,
+      "sequence": 205,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4403.213386878138,
+      "sequence": 206,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4229.207064413,
+      "sequence": 207,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4451.302745643945,
+      "sequence": 208,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4528.599127779249,
+      "sequence": 209,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4284.484589877829,
+      "sequence": 210,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4428.295317824988,
+      "sequence": 211,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5004.980312207481,
+      "sequence": 212,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4838.78631693637,
+      "sequence": 213,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4296.066171835293,
+      "sequence": 214,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4014.5425777349155,
+      "sequence": 215,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4491.410987952258,
+      "sequence": 216,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5068.455838233873,
+      "sequence": 217,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5210.538584357593,
+      "sequence": 218,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5273.078053677746,
+      "sequence": 219,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4121.528876427736,
+      "sequence": 220,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4129.016614713561,
+      "sequence": 221,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4286.719479914114,
+      "sequence": 222,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4903.539926514379,
+      "sequence": 223,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5047.337035849458,
+      "sequence": 224,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5386.072917541489,
+      "sequence": 225,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4914.4611804102315,
+      "sequence": 226,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4460.6277737029595,
+      "sequence": 227,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3988.880335330381,
+      "sequence": 228,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4356.854253694764,
+      "sequence": 229,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4552.040185102145,
+      "sequence": 230,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4790.058148816694,
+      "sequence": 231,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4118.296349790879,
+      "sequence": 232,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4783.2423482488375,
+      "sequence": 233,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4453.032950050372,
+      "sequence": 234,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3509.5216786346864,
+      "sequence": 235,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3726.7407067178865,
+      "sequence": 236,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4325.962766640121,
+      "sequence": 237,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4301.278546624933,
+      "sequence": 238,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4433.188112696633,
+      "sequence": 239,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4436.411152515793,
+      "sequence": 240,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3777.531805933104,
+      "sequence": 241,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4015.98856391717,
+      "sequence": 242,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4306.982924394979,
+      "sequence": 243,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3825.7590948042925,
+      "sequence": 244,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4472.150482256227,
+      "sequence": 245,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4068.6283624349744,
+      "sequence": 246,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3767.637202314567,
+      "sequence": 247,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3548.839989187545,
+      "sequence": 248,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3951.78148619883,
+      "sequence": 249,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4053.7376946702134,
+      "sequence": 250,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4422.085029879585,
+      "sequence": 251,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4752.26377890422,
+      "sequence": 252,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4023.140319808619,
+      "sequence": 253,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4263.492433369276,
+      "sequence": 254,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4019.7116000823444,
+      "sequence": 255,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4195.509324336192,
+      "sequence": 256,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4009.8658098301385,
+      "sequence": 257,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4517.463528485969,
+      "sequence": 258,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4299.050320092181,
+      "sequence": 259,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4234.07607015525,
+      "sequence": 260,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4728.317053313367,
+      "sequence": 261,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4441.381390991446,
+      "sequence": 262,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4623.389929607976,
+      "sequence": 263,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4638.047306803608,
+      "sequence": 264,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4847.267029226059,
+      "sequence": 265,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4899.391244487779,
+      "sequence": 266,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4873.420422536787,
+      "sequence": 267,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4954.313348866417,
+      "sequence": 268,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4674.854945108673,
+      "sequence": 269,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5254.613552639727,
+      "sequence": 270,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5027.647343570832,
+      "sequence": 271,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4501.889154459583,
+      "sequence": 272,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4158.059253977321,
+      "sequence": 273,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4307.52498075075,
+      "sequence": 274,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3895.2107778762293,
+      "sequence": 275,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4672.69428741181,
+      "sequence": 276,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4253.0108645224245,
+      "sequence": 277,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4169.723629129585,
+      "sequence": 278,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4603.9229341842,
+      "sequence": 279,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4293.313324303075,
+      "sequence": 280,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4005.339852822013,
+      "sequence": 281,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4454.920132536907,
+      "sequence": 282,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4018.3369824794354,
+      "sequence": 283,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4153.685677782138,
+      "sequence": 284,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4538.25629122823,
+      "sequence": 285,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4442.777578720124,
+      "sequence": 286,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4313.6053561314475,
+      "sequence": 287,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4011.191801717505,
+      "sequence": 288,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4060.929782384075,
+      "sequence": 289,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3751.5399944004603,
+      "sequence": 290,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4226.150701519102,
+      "sequence": 291,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4254.15615691978,
+      "sequence": 292,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4334.958300629165,
+      "sequence": 293,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4404.866645958158,
+      "sequence": 294,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3699.3155893991934,
+      "sequence": 295,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4118.389055276522,
+      "sequence": 296,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4336.521017002873,
+      "sequence": 297,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4281.5135912713595,
+      "sequence": 298,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4061.0792593726655,
+      "sequence": 299,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3876.3570209918544,
+      "sequence": 300,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4249.57909400342,
+      "sequence": 301,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3775.353529117652,
+      "sequence": 302,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3979.643519717385,
+      "sequence": 303,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4088.2273796454538,
+      "sequence": 304,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4227.1772918012575,
+      "sequence": 305,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3618.77309626434,
+      "sequence": 306,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3925.398652680684,
+      "sequence": 307,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3853.3564334693365,
+      "sequence": 308,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3744.8776758920867,
+      "sequence": 309,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3999.2304347516038,
+      "sequence": 310,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3884.187326661544,
+      "sequence": 311,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4122.264152902957,
+      "sequence": 312,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4375.547067061532,
+      "sequence": 313,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3976.711385126924,
+      "sequence": 314,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4275.837947225431,
+      "sequence": 315,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3850.3849697937258,
+      "sequence": 316,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3564.5814247502713,
+      "sequence": 317,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4032.0227135203313,
+      "sequence": 318,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3755.285006324644,
+      "sequence": 319,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4257.258347563446,
+      "sequence": 320,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4351.970261692477,
+      "sequence": 321,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4492.418938135903,
+      "sequence": 322,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4576.193839011845,
+      "sequence": 323,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4348.686555381399,
+      "sequence": 324,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3978.862208141829,
+      "sequence": 325,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4081.439323008526,
+      "sequence": 326,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5001.95739526581,
+      "sequence": 327,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4378.162661516573,
+      "sequence": 328,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4278.716266034171,
+      "sequence": 329,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4368.2591181690805,
+      "sequence": 330,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4389.822218749789,
+      "sequence": 331,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4016.4196603151504,
+      "sequence": 332,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4284.644593278412,
+      "sequence": 333,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4211.090535895433,
+      "sequence": 334,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3689.4365313858725,
+      "sequence": 335,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3951.2458543818793,
+      "sequence": 336,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4522.092053228931,
+      "sequence": 337,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3400.5682342141517,
+      "sequence": 338,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4178.353132519405,
+      "sequence": 339,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4475.717850622372,
+      "sequence": 340,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4105.043389035563,
+      "sequence": 341,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3839.69510526309,
+      "sequence": 342,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3646.436793616478,
+      "sequence": 343,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3817.5788349047652,
+      "sequence": 344,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4532.976455410477,
+      "sequence": 345,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4360.377594028367,
+      "sequence": 346,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3774.0469802399166,
+      "sequence": 347,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3729.509047439322,
+      "sequence": 348,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4031.194114788086,
+      "sequence": 349,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4101.581709389109,
+      "sequence": 350,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4605.65332188661,
+      "sequence": 351,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3942.15548667009,
+      "sequence": 352,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4137.955872516381,
+      "sequence": 353,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4502.506714939605,
+      "sequence": 354,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3751.647699154564,
+      "sequence": 355,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3833.734068849124,
+      "sequence": 356,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4808.014448207803,
+      "sequence": 357,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4079.1662847762927,
+      "sequence": 358,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3473.259914171591,
+      "sequence": 359,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4169.578898758278,
+      "sequence": 360,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3432.3490711054765,
+      "sequence": 361,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4145.386734779051,
+      "sequence": 362,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5037.2794432737865,
+      "sequence": 363,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5001.560230415082,
+      "sequence": 364,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4365.049423489196,
+      "sequence": 365,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4282.791063068435,
+      "sequence": 366,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4392.864931109827,
+      "sequence": 367,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4318.320373216993,
+      "sequence": 368,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4505.365788731375,
+      "sequence": 369,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4440.857603450226,
+      "sequence": 370,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4596.648285881034,
+      "sequence": 371,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4233.813272373169,
+      "sequence": 372,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4118.588897743612,
+      "sequence": 373,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4794.737620294094,
+      "sequence": 374,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4426.219759149477,
+      "sequence": 375,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4041.963665361516,
+      "sequence": 376,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4167.641415514168,
+      "sequence": 377,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4163.980777423363,
+      "sequence": 378,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4179.781763817882,
+      "sequence": 379,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4381.44444700866,
+      "sequence": 380,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4686.9510071234545,
+      "sequence": 381,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4016.5729044409527,
+      "sequence": 382,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4363.522195267491,
+      "sequence": 383,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4145.131215178873,
+      "sequence": 384,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4160.527266349876,
+      "sequence": 385,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3286.8789386908757,
+      "sequence": 386,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4762.987501432188,
+      "sequence": 387,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4114.755617000279,
+      "sequence": 388,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3948.844209798379,
+      "sequence": 389,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4339.267363250954,
+      "sequence": 390,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3972.569881127216,
+      "sequence": 391,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4294.158882019459,
+      "sequence": 392,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4190.470914962349,
+      "sequence": 393,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3668.367558636586,
+      "sequence": 394,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4031.645508996211,
+      "sequence": 395,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3899.6467183362693,
+      "sequence": 396,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4122.575620526448,
+      "sequence": 397,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3684.08215640625,
+      "sequence": 398,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4739.893311222084,
+      "sequence": 399,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4738.295397961279,
+      "sequence": 400,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4354.751588609535,
+      "sequence": 401,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4737.587510723155,
+      "sequence": 402,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4412.499862672295,
+      "sequence": 403,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4264.6259009084315,
+      "sequence": 404,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4228.534479497874,
+      "sequence": 405,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4888.08290853363,
+      "sequence": 406,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3399.7980189343216,
+      "sequence": 407,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4329.240184653085,
+      "sequence": 408,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4307.396458139818,
+      "sequence": 409,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3800.787923728116,
+      "sequence": 410,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4230.362396069337,
+      "sequence": 411,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4270.970373327495,
+      "sequence": 412,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3374.3629593619844,
+      "sequence": 413,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3628.901178687811,
+      "sequence": 414,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3682.970290236408,
+      "sequence": 415,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4292.719599853153,
+      "sequence": 416,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4266.431927556958,
+      "sequence": 417,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4091.7646178712603,
+      "sequence": 418,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4111.7616435093805,
+      "sequence": 419,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4434.477975000045,
+      "sequence": 420,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4189.976826657541,
+      "sequence": 421,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4426.879600176588,
+      "sequence": 422,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4618.654337977758,
+      "sequence": 423,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4743.383847644553,
+      "sequence": 424,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4549.759533888311,
+      "sequence": 425,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4491.759937285446,
+      "sequence": 426,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4076.313187710475,
+      "sequence": 427,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4558.914555135649,
+      "sequence": 428,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4483.186317376792,
+      "sequence": 429,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4566.954204435227,
+      "sequence": 430,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4284.129487153608,
+      "sequence": 431,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4833.210283742286,
+      "sequence": 432,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4681.972724938532,
+      "sequence": 433,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4709.407833212288,
+      "sequence": 434,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4776.014215447241,
+      "sequence": 435,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4903.541491030395,
+      "sequence": 436,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4701.678581835586,
+      "sequence": 437,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4895.889339013491,
+      "sequence": 438,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3943.797327153472,
+      "sequence": 439,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3796.693438172224,
+      "sequence": 440,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4397.417051856872,
+      "sequence": 441,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3593.5692315471824,
+      "sequence": 442,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3506.3488453044556,
+      "sequence": 443,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4025.0307614393532,
+      "sequence": 444,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4152.57297474012,
+      "sequence": 445,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4576.731597567472,
+      "sequence": 446,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3903.4136175806343,
+      "sequence": 447,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4182.068288588547,
+      "sequence": 448,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3639.0469921827316,
+      "sequence": 449,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3534.194678849308,
+      "sequence": 450,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3664.103437668993,
+      "sequence": 451,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3719.7688915412873,
+      "sequence": 452,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4063.0335069876164,
+      "sequence": 453,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4646.46187477652,
+      "sequence": 454,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4402.064402645803,
+      "sequence": 455,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4226.779967270879,
+      "sequence": 456,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4391.110328344745,
+      "sequence": 457,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3934.1665181106655,
+      "sequence": 458,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4322.859882078483,
+      "sequence": 459,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3921.6832964421483,
+      "sequence": 460,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3947.9171408618568,
+      "sequence": 461,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4758.705122899497,
+      "sequence": 462,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5057.684138075914,
+      "sequence": 463,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4877.5184929941315,
+      "sequence": 464,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4664.205209137406,
+      "sequence": 465,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5148.790470835229,
+      "sequence": 466,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4722.4591444460675,
+      "sequence": 467,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5081.335776902153,
+      "sequence": 468,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4884.292789109983,
+      "sequence": 469,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4898.599718257552,
+      "sequence": 470,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5089.9432658836595,
+      "sequence": 471,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4969.354869889212,
+      "sequence": 472,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4983.265532502672,
+      "sequence": 473,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4712.622205578606,
+      "sequence": 474,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3900.7995095220394,
+      "sequence": 475,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4055.309492813307,
+      "sequence": 476,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4739.286021741689,
+      "sequence": 477,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4456.580333465419,
+      "sequence": 478,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4397.185843602754,
+      "sequence": 479,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4900.985870247125,
+      "sequence": 480,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4636.019260665751,
+      "sequence": 481,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4253.314864202053,
+      "sequence": 482,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3420.4075561335194,
+      "sequence": 483,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4075.631522896183,
+      "sequence": 484,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4100.290666400921,
+      "sequence": 485,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3749.4438134024385,
+      "sequence": 486,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4231.199466634775,
+      "sequence": 487,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4465.885766484309,
+      "sequence": 488,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3533.210558946361,
+      "sequence": 489,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4066.415049579111,
+      "sequence": 490,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4259.453913719277,
+      "sequence": 491,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3685.480573491135,
+      "sequence": 492,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3861.741548927006,
+      "sequence": 493,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3879.686242925527,
+      "sequence": 494,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4124.765333179326,
+      "sequence": 495,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4577.1651337808,
+      "sequence": 496,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4720.700780506188,
+      "sequence": 497,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3840.8451931717573,
+      "sequence": 498,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3671.1322617845144,
+      "sequence": 499,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4346.266699703643,
+      "sequence": 500,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4559.313699189981,
+      "sequence": 501,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4016.6240934815723,
+      "sequence": 502,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4189.312875050644,
+      "sequence": 503,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4473.017998502481,
+      "sequence": 504,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4051.9941775635816,
+      "sequence": 505,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4136.716334241442,
+      "sequence": 506,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3866.124587640399,
+      "sequence": 507,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3885.020613978093,
+      "sequence": 508,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4100.470938667131,
+      "sequence": 509,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4318.71026591165,
+      "sequence": 510,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4114.316389216168,
+      "sequence": 511,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4345.31822875893,
+      "sequence": 512,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3956.7140539253596,
+      "sequence": 513,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3570.5923611226026,
+      "sequence": 514,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4029.4846150167286,
+      "sequence": 515,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5750.594367809594,
+      "sequence": 516,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5373.4644624451175,
+      "sequence": 517,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4196.407336819917,
+      "sequence": 518,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3946.498391206842,
+      "sequence": 519,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4011.6983559473883,
+      "sequence": 520,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4540.566618270474,
+      "sequence": 521,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4771.330352280755,
+      "sequence": 522,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3761.342611262269,
+      "sequence": 523,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3676.391903590371,
+      "sequence": 524,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4074.7171083761204,
+      "sequence": 525,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4253.271030337783,
+      "sequence": 526,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 2643.299024490465,
+      "sequence": 527,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3745.901215241058,
+      "sequence": 528,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4087.872067980832,
+      "sequence": 529,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3827.6600210007746,
+      "sequence": 530,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4590.49372214649,
+      "sequence": 531,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4848.961926357821,
+      "sequence": 532,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4002.751860261429,
+      "sequence": 533,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4133.3751484553795,
+      "sequence": 534,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4226.9866606933065,
+      "sequence": 535,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4454.948320207419,
+      "sequence": 536,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4364.819572575507,
+      "sequence": 537,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4288.759171726182,
+      "sequence": 538,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4125.79711464094,
+      "sequence": 539,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4540.868522070814,
+      "sequence": 540,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4128.952963096686,
+      "sequence": 541,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4272.294983219879,
+      "sequence": 542,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3596.0645230216905,
+      "sequence": 543,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4324.611488627968,
+      "sequence": 544,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4499.17186205613,
+      "sequence": 545,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4139.765511578968,
+      "sequence": 546,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3919.366280570619,
+      "sequence": 547,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4216.174828599149,
+      "sequence": 548,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3449.4093044500332,
+      "sequence": 549,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4289.712654337112,
+      "sequence": 550,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3797.731569194817,
+      "sequence": 551,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4220.494695387431,
+      "sequence": 552,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4961.71769632597,
+      "sequence": 553,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4717.101833949797,
+      "sequence": 554,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4324.809146602987,
+      "sequence": 555,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4319.729241636349,
+      "sequence": 556,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3826.1191333725583,
+      "sequence": 557,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4244.922307209112,
+      "sequence": 558,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4427.9883870656195,
+      "sequence": 559,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4245.780357950483,
+      "sequence": 560,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4109.816731712897,
+      "sequence": 561,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4228.348269671667,
+      "sequence": 562,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4347.463882660159,
+      "sequence": 563,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4689.173602528637,
+      "sequence": 564,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4401.861908714927,
+      "sequence": 565,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4583.4603333557025,
+      "sequence": 566,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4479.816798935644,
+      "sequence": 567,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4113.540188461746,
+      "sequence": 568,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4228.443742329837,
+      "sequence": 569,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3628.234014781541,
+      "sequence": 570,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4490.115089842584,
+      "sequence": 571,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4528.859135161154,
+      "sequence": 572,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3863.3833758486144,
+      "sequence": 573,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4024.758569050173,
+      "sequence": 574,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4502.3161194672575,
+      "sequence": 575,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4071.861796339508,
+      "sequence": 576,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4520.584191536822,
+      "sequence": 577,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4598.8499877700815,
+      "sequence": 578,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4289.246437100635,
+      "sequence": 579,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4185.292792175664,
+      "sequence": 580,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4073.285131649929,
+      "sequence": 581,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4631.265622836887,
+      "sequence": 582,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3875.4281723299064,
+      "sequence": 583,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4576.506939197425,
+      "sequence": 584,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4207.907430284889,
+      "sequence": 585,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4437.364766499377,
+      "sequence": 586,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4607.362323436886,
+      "sequence": 587,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4331.379772445274,
+      "sequence": 588,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4696.41300098598,
+      "sequence": 589,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4573.328623299021,
+      "sequence": 590,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4483.76783507457,
+      "sequence": 591,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4663.617464565439,
+      "sequence": 592,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4294.044416748249,
+      "sequence": 593,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4411.266419358901,
+      "sequence": 594,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4272.292297926149,
+      "sequence": 595,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4203.284844939364,
+      "sequence": 596,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4200.172525735979,
+      "sequence": 597,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4413.966062955034,
+      "sequence": 598,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4229.0917147501605,
+      "sequence": 599,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4310.175949651399,
+      "sequence": 600,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4603.033726949478,
+      "sequence": 601,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4322.875044679502,
+      "sequence": 602,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4422.5722650191165,
+      "sequence": 603,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4026.6237997459248,
+      "sequence": 604,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4170.991061289678,
+      "sequence": 605,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4010.3056929431623,
+      "sequence": 606,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3792.720903758134,
+      "sequence": 607,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4062.260962722823,
+      "sequence": 608,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4192.337471479783,
+      "sequence": 609,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4166.04292501774,
+      "sequence": 610,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4252.634417525958,
+      "sequence": 611,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4075.0354401862714,
+      "sequence": 612,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4884.82992191735,
+      "sequence": 613,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 2859.7217159373467,
+      "sequence": 614,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3249.0199795668086,
+      "sequence": 615,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4639.074440326658,
+      "sequence": 616,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4060.296986980131,
+      "sequence": 617,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4049.348942413926,
+      "sequence": 618,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3719.156984104775,
+      "sequence": 619,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3842.6990203001187,
+      "sequence": 620,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 2903.7281665225746,
+      "sequence": 621,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4151.1671881848015,
+      "sequence": 622,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4680.855346741271,
+      "sequence": 623,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4576.182773717912,
+      "sequence": 624,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4335.645990079851,
+      "sequence": 625,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4521.146436872892,
+      "sequence": 626,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4404.799115858943,
+      "sequence": 627,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4121.355478623533,
+      "sequence": 628,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4295.696284486854,
+      "sequence": 629,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4150.076301687397,
+      "sequence": 630,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4195.029750327114,
+      "sequence": 631,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4385.619294139906,
+      "sequence": 632,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4795.640142051037,
+      "sequence": 633,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4633.817604874726,
+      "sequence": 634,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4265.415002792841,
+      "sequence": 635,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4118.347813262721,
+      "sequence": 636,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4458.51077470649,
+      "sequence": 637,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5069.705116151832,
+      "sequence": 638,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4510.932808111655,
+      "sequence": 639,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4231.541823884472,
+      "sequence": 640,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4096.22402083443,
+      "sequence": 641,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3824.075853733055,
+      "sequence": 642,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4254.142913063464,
+      "sequence": 643,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3663.6332445363514,
+      "sequence": 644,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4114.806380446622,
+      "sequence": 645,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4234.88512111071,
+      "sequence": 646,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4330.799345959909,
+      "sequence": 647,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4190.079608077416,
+      "sequence": 648,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4638.217814240139,
+      "sequence": 649,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3815.6501217455952,
+      "sequence": 650,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4078.0271630682983,
+      "sequence": 651,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4209.825144803966,
+      "sequence": 652,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4117.577238931553,
+      "sequence": 653,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4181.933171469485,
+      "sequence": 654,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3833.809204209363,
+      "sequence": 655,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4048.150535668712,
+      "sequence": 656,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4149.482990038057,
+      "sequence": 657,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4080.7130617923103,
+      "sequence": 658,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4307.35836750688,
+      "sequence": 659,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4539.028479344677,
+      "sequence": 660,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4015.7788960841717,
+      "sequence": 661,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4289.745582882606,
+      "sequence": 662,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4234.044440001133,
+      "sequence": 663,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4726.587662892998,
+      "sequence": 664,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4385.145780809864,
+      "sequence": 665,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4052.4222531184205,
+      "sequence": 666,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4529.800846992293,
+      "sequence": 667,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4444.798409464187,
+      "sequence": 668,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4136.860980112338,
+      "sequence": 669,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4537.504369739909,
+      "sequence": 670,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4510.511122437194,
+      "sequence": 671,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4335.431382362964,
+      "sequence": 672,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4801.447816085536,
+      "sequence": 673,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3885.6655127373524,
+      "sequence": 674,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3719.106734433444,
+      "sequence": 675,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4107.209371922538,
+      "sequence": 676,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4083.0924500834662,
+      "sequence": 677,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4018.96714106694,
+      "sequence": 678,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3864.9936364213645,
+      "sequence": 679,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3629.213361629343,
+      "sequence": 680,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3897.164226240013,
+      "sequence": 681,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3752.096488549374,
+      "sequence": 682,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4401.897667264217,
+      "sequence": 683,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4129.576025186281,
+      "sequence": 684,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3489.1331321388134,
+      "sequence": 685,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3427.1712287754635,
+      "sequence": 686,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3749.367266918416,
+      "sequence": 687,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4496.2772067466285,
+      "sequence": 688,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4004.194830390479,
+      "sequence": 689,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3525.6596250900184,
+      "sequence": 690,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4275.012825369136,
+      "sequence": 691,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4295.836058905115,
+      "sequence": 692,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4058.8998632595176,
+      "sequence": 693,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4110.588424124813,
+      "sequence": 694,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4009.582950520329,
+      "sequence": 695,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4100.949443324294,
+      "sequence": 696,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4554.4653921367135,
+      "sequence": 697,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4072.9175093472004,
+      "sequence": 698,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4428.276283857005,
+      "sequence": 699,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5067.9116769462125,
+      "sequence": 700,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4599.969928053353,
+      "sequence": 701,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4687.535272421781,
+      "sequence": 702,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4052.147536587261,
+      "sequence": 703,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4209.618313948624,
+      "sequence": 704,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4297.087961679441,
+      "sequence": 705,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4578.937188365962,
+      "sequence": 706,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4147.819493817049,
+      "sequence": 707,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4165.903139898088,
+      "sequence": 708,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4081.533696153667,
+      "sequence": 709,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4204.531501685735,
+      "sequence": 710,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4422.270899429219,
+      "sequence": 711,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4840.395544063766,
+      "sequence": 712,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4413.156506595202,
+      "sequence": 713,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4437.3731099045835,
+      "sequence": 714,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4325.882052490022,
+      "sequence": 715,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4339.523740315344,
+      "sequence": 716,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3615.919003414572,
+      "sequence": 717,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4112.375228850171,
+      "sequence": 718,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4219.25935566565,
+      "sequence": 719,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4525.578148235974,
+      "sequence": 720,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4107.357959578891,
+      "sequence": 721,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3725.986888841784,
+      "sequence": 722,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3899.933979208232,
+      "sequence": 723,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4017.285361493239,
+      "sequence": 724,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3772.932108936482,
+      "sequence": 725,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4201.988521583029,
+      "sequence": 726,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3077.033754433738,
+      "sequence": 727,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4237.867844503373,
+      "sequence": 728,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3624.2875751559623,
+      "sequence": 729,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3346.490639510099,
+      "sequence": 730,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3949.2010429090587,
+      "sequence": 731,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4400.620798412594,
+      "sequence": 732,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4457.340156628867,
+      "sequence": 733,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4940.963900749455,
+      "sequence": 734,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4461.30295059504,
+      "sequence": 735,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4979.1810873660725,
+      "sequence": 736,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4975.156242906145,
+      "sequence": 737,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4726.303500457434,
+      "sequence": 738,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4718.567976233084,
+      "sequence": 739,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4357.1068281909975,
+      "sequence": 740,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4868.559894571517,
+      "sequence": 741,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4860.646438037045,
+      "sequence": 742,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5050.253898047144,
+      "sequence": 743,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5121.878518329933,
+      "sequence": 744,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4869.566215759376,
+      "sequence": 745,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4910.618706600741,
+      "sequence": 746,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3882.5209141239175,
+      "sequence": 747,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3814.2001882276672,
+      "sequence": 748,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4862.990126882214,
+      "sequence": 749,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5045.09586824826,
+      "sequence": 750,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4573.884919444565,
+      "sequence": 751,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4878.8593618094455,
+      "sequence": 752,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4747.125965538202,
+      "sequence": 753,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4880.494703656994,
+      "sequence": 754,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5088.486555712996,
+      "sequence": 755,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5143.020964695141,
+      "sequence": 756,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4972.30358199717,
+      "sequence": 757,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4900.598343072983,
+      "sequence": 758,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4774.471999866888,
+      "sequence": 759,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4616.990895234514,
+      "sequence": 760,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4806.672537469771,
+      "sequence": 761,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4814.514508312801,
+      "sequence": 762,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4985.61617561437,
+      "sequence": 763,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4750.915263946867,
+      "sequence": 764,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4155.126371544116,
+      "sequence": 765,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4105.3346136959735,
+      "sequence": 766,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4264.313027736032,
+      "sequence": 767,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3888.283873475215,
+      "sequence": 768,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4183.64248323068,
+      "sequence": 769,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3886.1389707438357,
+      "sequence": 770,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4515.863376061665,
+      "sequence": 771,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4250.7973181116395,
+      "sequence": 772,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3993.0339000950335,
+      "sequence": 773,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4214.0352399613475,
+      "sequence": 774,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3924.6955178072676,
+      "sequence": 775,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3452.3362696649274,
+      "sequence": 776,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3464.7239750882436,
+      "sequence": 777,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3511.358701973164,
+      "sequence": 778,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3738.1133678493206,
+      "sequence": 779,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4198.996669834596,
+      "sequence": 780,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4240.495405364782,
+      "sequence": 781,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3521.0885465244064,
+      "sequence": 782,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3148.2328580110334,
+      "sequence": 783,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4238.589577988721,
+      "sequence": 784,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4252.2877750813495,
+      "sequence": 785,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4313.692868482845,
+      "sequence": 786,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4399.842256933916,
+      "sequence": 787,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4368.204087921011,
+      "sequence": 788,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4307.388774466468,
+      "sequence": 789,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4397.577734948834,
+      "sequence": 790,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4294.129960053833,
+      "sequence": 791,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4349.5620583742275,
+      "sequence": 792,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4193.961888975173,
+      "sequence": 793,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4362.473001671955,
+      "sequence": 794,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4457.392798763933,
+      "sequence": 795,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4292.990345686907,
+      "sequence": 796,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4024.003263772698,
+      "sequence": 797,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4422.161453572102,
+      "sequence": 798,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4568.517289730022,
+      "sequence": 799,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4441.616085382528,
+      "sequence": 800,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4283.877141710138,
+      "sequence": 801,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4391.55041254923,
+      "sequence": 802,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5046.227530483011,
+      "sequence": 803,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4670.10743902484,
+      "sequence": 804,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4875.768322636373,
+      "sequence": 805,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4510.0178590998985,
+      "sequence": 806,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4577.006142657017,
+      "sequence": 807,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4679.680026268121,
+      "sequence": 808,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3477.6709211549023,
+      "sequence": 809,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 2816.4622087965254,
+      "sequence": 810,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3111.1976863133023,
+      "sequence": 811,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3550.0485393104027,
+      "sequence": 812,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3475.7261684643454,
+      "sequence": 813,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3417.0741277362686,
+      "sequence": 814,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3462.0888334004994,
+      "sequence": 815,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3005.043961063726,
+      "sequence": 816,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3602.614990298287,
+      "sequence": 817,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4523.937989444006,
+      "sequence": 818,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4108.991122167354,
+      "sequence": 819,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3542.706750983052,
+      "sequence": 820,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4235.430057464284,
+      "sequence": 821,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4464.51493095269,
+      "sequence": 822,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4455.103600684088,
+      "sequence": 823,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5065.307047520648,
+      "sequence": 824,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4087.599196569645,
+      "sequence": 825,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3917.5269333198667,
+      "sequence": 826,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4508.036417992786,
+      "sequence": 827,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4947.733364444808,
+      "sequence": 828,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4543.523060218664,
+      "sequence": 829,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4602.138078927412,
+      "sequence": 830,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4213.4037707167445,
+      "sequence": 831,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4517.315539842355,
+      "sequence": 832,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3853.8230308308266,
+      "sequence": 833,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3967.8682896746323,
+      "sequence": 834,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4139.47439227812,
+      "sequence": 835,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3606.073731382785,
+      "sequence": 836,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3402.758766615996,
+      "sequence": 837,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4386.6094320423435,
+      "sequence": 838,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4464.807093487121,
+      "sequence": 839,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4217.682650935603,
+      "sequence": 840,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3793.2815636255546,
+      "sequence": 841,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4050.1381261119386,
+      "sequence": 842,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3174.7039385325043,
+      "sequence": 843,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3636.296665573085,
+      "sequence": 844,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4585.691261091153,
+      "sequence": 845,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4582.6111156962,
+      "sequence": 846,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3590.9778322528,
+      "sequence": 847,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3954.1924469326623,
+      "sequence": 848,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4041.103585338162,
+      "sequence": 849,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4059.9374932815554,
+      "sequence": 850,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4170.66233424237,
+      "sequence": 851,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4043.064358237316,
+      "sequence": 852,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4446.165586323623,
+      "sequence": 853,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4689.551904874388,
+      "sequence": 854,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4523.989785698941,
+      "sequence": 855,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4330.733160643023,
+      "sequence": 856,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4183.677941772854,
+      "sequence": 857,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3830.6216484827455,
+      "sequence": 858,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4440.824259007932,
+      "sequence": 859,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3656.1985791949555,
+      "sequence": 860,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5037.120305321179,
+      "sequence": 861,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4832.312320045661,
+      "sequence": 862,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4654.4443307065085,
+      "sequence": 863,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5153.949185744321,
+      "sequence": 864,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4446.49120761521,
+      "sequence": 865,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4964.205463761929,
+      "sequence": 866,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4598.177031881642,
+      "sequence": 867,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4410.289274989162,
+      "sequence": 868,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4563.898315166705,
+      "sequence": 869,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4723.855962972622,
+      "sequence": 870,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4470.916336248047,
+      "sequence": 871,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4361.958968652354,
+      "sequence": 872,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3503.7391065994743,
+      "sequence": 873,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3977.824497314461,
+      "sequence": 874,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4291.288199348375,
+      "sequence": 875,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3406.962153462111,
+      "sequence": 876,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3602.092667467892,
+      "sequence": 877,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4241.876711498597,
+      "sequence": 878,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4496.129085798748,
+      "sequence": 879,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4950.791874336544,
+      "sequence": 880,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5055.6229269557225,
+      "sequence": 881,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5151.080319860193,
+      "sequence": 882,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4921.405783693714,
+      "sequence": 883,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5246.722280293936,
+      "sequence": 884,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3772.3768862627912,
+      "sequence": 885,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4277.6957177039,
+      "sequence": 886,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4212.148818332236,
+      "sequence": 887,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3976.4053078143625,
+      "sequence": 888,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4153.233175343135,
+      "sequence": 889,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4116.752155345923,
+      "sequence": 890,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3895.544585904572,
+      "sequence": 891,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3452.9365423598792,
+      "sequence": 892,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4111.8228523485595,
+      "sequence": 893,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4444.530416227586,
+      "sequence": 894,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4495.236360696581,
+      "sequence": 895,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4484.938006578013,
+      "sequence": 896,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4213.9979142464,
+      "sequence": 897,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3680.2801557763014,
+      "sequence": 898,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4430.002897597966,
+      "sequence": 899,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3919.6701912779245,
+      "sequence": 900,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4254.307469621301,
+      "sequence": 901,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4581.623985454789,
+      "sequence": 902,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4287.221492258017,
+      "sequence": 903,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4215.30874303676,
+      "sequence": 904,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4459.345689663431,
+      "sequence": 905,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4688.73693706622,
+      "sequence": 906,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4150.500818245637,
+      "sequence": 907,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4522.0509040846955,
+      "sequence": 908,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4139.1223228163435,
+      "sequence": 909,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3452.3543665895413,
+      "sequence": 910,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3904.0515568546252,
+      "sequence": 911,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3716.23939769587,
+      "sequence": 912,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4495.288704768056,
+      "sequence": 913,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5262.912999208085,
+      "sequence": 914,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4556.394750638865,
+      "sequence": 915,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3804.5092494390265,
+      "sequence": 916,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3755.665122448874,
+      "sequence": 917,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3458.0189420769457,
+      "sequence": 918,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4475.299452309613,
+      "sequence": 919,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3479.434134964482,
+      "sequence": 920,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4417.084661866247,
+      "sequence": 921,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4077.1893875245005,
+      "sequence": 922,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4209.431919689057,
+      "sequence": 923,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4582.802127557923,
+      "sequence": 924,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4371.361347492086,
+      "sequence": 925,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4476.587927890476,
+      "sequence": 926,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3834.153367092833,
+      "sequence": 927,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3807.012269448256,
+      "sequence": 928,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3843.2295027491637,
+      "sequence": 929,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4279.72856006564,
+      "sequence": 930,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4207.296184068895,
+      "sequence": 931,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4237.497230440844,
+      "sequence": 932,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3749.2090264610597,
+      "sequence": 933,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3552.021428752516,
+      "sequence": 934,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3973.613676352892,
+      "sequence": 935,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4071.1944804086324,
+      "sequence": 936,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4038.3750827417243,
+      "sequence": 937,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4146.015757696354,
+      "sequence": 938,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3805.572204190772,
+      "sequence": 939,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4702.68034997012,
+      "sequence": 940,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4553.440710945637,
+      "sequence": 941,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5665.683273475384,
+      "sequence": 942,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5697.274475323386,
+      "sequence": 943,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4602.749876516755,
+      "sequence": 944,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4536.268040568684,
+      "sequence": 945,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4066.54084341845,
+      "sequence": 946,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3883.2257094844244,
+      "sequence": 947,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3920.044113854645,
+      "sequence": 948,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4457.968466596387,
+      "sequence": 949,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4238.347584158764,
+      "sequence": 950,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4642.203440500292,
+      "sequence": 951,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4503.646871666657,
+      "sequence": 952,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4468.5374948894605,
+      "sequence": 953,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4533.378992343089,
+      "sequence": 954,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4044.9456261411833,
+      "sequence": 955,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4082.6417463049293,
+      "sequence": 956,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3927.7579375440255,
+      "sequence": 957,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4025.436005317315,
+      "sequence": 958,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3872.1638099136762,
+      "sequence": 959,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3619.0217282646336,
+      "sequence": 960,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4066.35131100344,
+      "sequence": 961,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4275.693689221516,
+      "sequence": 962,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4250.820591625059,
+      "sequence": 963,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3843.7495554933557,
+      "sequence": 964,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3862.2746204501163,
+      "sequence": 965,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5458.133775802562,
+      "sequence": 966,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5313.431040213676,
+      "sequence": 967,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5488.796829590225,
+      "sequence": 968,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5944.692292204505,
+      "sequence": 969,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 6008.545509392279,
+      "sequence": 970,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 5781.0999148143455,
+      "sequence": 971,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4895.389621505747,
+      "sequence": 972,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4005.5624034034554,
+      "sequence": 973,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3979.0745201155078,
+      "sequence": 974,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3889.9144560724963,
+      "sequence": 975,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3682.265591024421,
+      "sequence": 976,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4922.639084835071,
+      "sequence": 977,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4499.959676864091,
+      "sequence": 978,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4694.49929024023,
+      "sequence": 979,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4277.479187886143,
+      "sequence": 980,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3877.8176530101337,
+      "sequence": 981,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3934.5308892428875,
+      "sequence": 982,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3965.2592553943396,
+      "sequence": 983,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4115.567109913332,
+      "sequence": 984,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4138.586430559284,
+      "sequence": 985,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4043.550372811733,
+      "sequence": 986,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3918.517187160207,
+      "sequence": 987,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4231.886903139763,
+      "sequence": 988,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4243.2046859940165,
+      "sequence": 989,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4142.297233879566,
+      "sequence": 990,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4214.532151820138,
+      "sequence": 991,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4512.76379355567,
+      "sequence": 992,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4832.383055282524,
+      "sequence": 993,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4614.494305200176,
+      "sequence": 994,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3878.5570489745587,
+      "sequence": 995,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3373.1347470209002,
+      "sequence": 996,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3593.185191967408,
+      "sequence": 997,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3195.7224357894156,
+      "sequence": 998,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3998.7279724258697,
+      "sequence": 999,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3756.457099279418,
+      "sequence": 1000,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4223.015243701666,
+      "sequence": 1001,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4351.404389071424,
+      "sequence": 1002,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4011.991088081384,
+      "sequence": 1003,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4300.408565896389,
+      "sequence": 1004,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3652.0593306689407,
+      "sequence": 1005,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4555.531141507905,
+      "sequence": 1006,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4608.158669476281,
+      "sequence": 1007,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4706.776602257225,
+      "sequence": 1008,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4731.624959082925,
+      "sequence": 1009,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4297.092594214133,
+      "sequence": 1010,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4291.061508581624,
+      "sequence": 1011,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4098.972610375378,
+      "sequence": 1012,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4466.242065427214,
+      "sequence": 1013,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4181.3833865514025,
+      "sequence": 1014,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4295.953116831719,
+      "sequence": 1015,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4417.372540142271,
+      "sequence": 1016,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4404.290654633078,
+      "sequence": 1017,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3818.6896675025346,
+      "sequence": 1018,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4144.393824627972,
+      "sequence": 1019,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4196.056845295709,
+      "sequence": 1020,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 4117.08717224421,
+      "sequence": 1021,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3677.503659194801,
+      "sequence": 1022,
+      "tokens": 1023
+    },
+    {
+      "loss_sum": 3776.7320898342878,
+      "sequence": 1023,
+      "tokens": 1023
+    }
+  ],
+  "seed": 2026,
+  "source_record_sha256": "49a3025343b301672f7db0d199cccb46acc6f12ceddfb369452123075eb551aa",
+  "updates": 2000
+}

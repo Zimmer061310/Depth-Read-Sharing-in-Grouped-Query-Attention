@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "scope": "disposable_cuda_preflight_only",
+  "authorization": {
+    "approved": false,
+    "human_message_reference": null,
+    "manual_retained_disk_stop_at_success_failure_cutoff": false,
+    "fresh_training": false,
+    "primary_scoring": false
+  },
+  "source_commit": null,
+  "contract_sha256": "92cae3a82ded6f624e8264c094843c929d56a32f3dc902437c92f67f633e3547",
+  "provider": {
+    "instance_id": null,
+    "hostname": null,
+    "gpu_uuid": null,
+    "offer_verified": false,
+    "retained_disk": true
+  },
+  "allocation_started_at": null,
+  "maximum_billed_hours": 4,
+  "price_cny_per_gpu_hour": null,
+  "prior_study_gpu_hours": null,
+  "prior_study_compute_cny": null,
+  "runtime": {},
+  "runtime_probe_sha256": null,
+  "environment": {
+    "HF_HUB_OFFLINE": "1",
+    "TRANSFORMERS_OFFLINE": "1",
+    "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "ATTNRES_FUSED": "0",
+    "CUDA_VISIBLE_DEVICES": null,
+    "WANDB_MODE": "online"
+  },
+  "backup_host": null,
+  "wandb_run_id": null,
+  "campaign_output": null
+}

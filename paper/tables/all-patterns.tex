@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lclrrrrl@{}}
+\toprule
+Pattern & Reads & Driver & Mean loss & $\Delta$ vs. \route{AAAA} & Seed SD & PPL $\downarrow$ & Rule \\
+\midrule
+\route{AAAA} & 1 & 595.71.05 & 4.221317 & --- & --- & --- & Baseline \\
+\route{AAAB} & 2 & 595.71.05 & 4.152995 & -0.068322 & 0.012519 & 6.60\% & Pass \\
+\route{ABAA}$^{*}$ & 2 & 580.76.05 & 4.213341 & -0.007977 & 0.006479 & 0.79\% & Pass \\
+\route{AABA}$^{*}$ & 2 & 580.76.05 & 4.179416 & -0.041901 & 0.003856 & 4.10\% & Pass \\
+\route{AABB}$^{*}$ & 2 & 580.76.05 & 4.206749 & -0.014568 & 0.010792 & 1.45\% & Pass \\
+\route{ABBA}$^{*}$ & 2 & 580.76.05 & 4.168289 & -0.053028 & 0.005898 & 5.16\% & Pass \\
+\route{AABC} & 3 & 595.71.05 & 4.150502 & -0.070815 & 0.016801 & 6.84\% & Desc. \\
+\route{ABBC} & 3 & 595.71.05 & 4.154015 & -0.067302 & 0.005916 & 6.51\% & Desc. \\
+\bottomrule
+\end{tabular}

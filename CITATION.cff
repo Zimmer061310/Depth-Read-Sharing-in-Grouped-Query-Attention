@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this repository when using the code or results."
+type: software
+title: "Depth-Read Sharing in Grouped-Query Attention"
+authors:
+  - family-names: Zhao
+    given-names: Zimu
+    email: zimmer061310@gmail.com
+repository-code: "https://github.com/Zimmer061310/Depth-Read-Sharing-in-Grouped-Query-Attention"
+url: "https://github.com/Zimmer061310/Depth-Read-Sharing-in-Grouped-Query-Attention"
+date-released: 2026-11-21
+license: MIT

@@ -1,0 +1,38 @@
+{
+  "format_version": 1,
+  "study_id": "paper-sharing-fresh-2k-v1",
+  "status": "author_approved_source_pool_and_selection_before_construction",
+  "author_reply": "Use this proposed policy",
+  "approved_on": "2026-10-14 Asia/Shanghai",
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "dataset_name": "sample-10BT",
+  "dataset_revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+  "ordered_source_pool": [
+    {
+      "name": "000_00000.parquet",
+      "hub_path": "sample/10BT/000_00000.parquet",
+      "bytes": 2152819114,
+      "sha256": "b1ba7b2ce4cb5ea6ef42dca40263eabb85f37700d01693a68e9b30a31d78e871"
+    },
+    {
+      "name": "001_00000.parquet",
+      "hub_path": "sample/10BT/001_00000.parquet",
+      "bytes": 2152222432,
+      "sha256": "3fcf2dc69cd52503986276d3d2d26a8c356d0f2ea28a0de4fdbda8cf87755693"
+    }
+  ],
+  "tokenizer": "Qwen/Qwen3-0.6B",
+  "tokenizer_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "selection_document_count": 4096,
+  "selection_salt": "paper-sharing-fresh-2k-v1:primary:2026-10-14",
+  "selection_rule": "primary-selection-v1 salted canonical-JSON SHA-256 of document identity; complete nonempty unique pool; ascending rank then identity",
+  "all_selected_documents_excluded_including_unused_tail": true,
+  "insufficient_selected_tokens": "stop_and_report_no_adaptive_selection_or_pool_expansion",
+  "native_id_schema": "verify_actual_pinned_parquet_before_full_policy_freeze",
+  "identity_rule": "prefer_stable_native_id_with_content_consistency_check; freeze_exact_field_and_namespace_before_primary_construction",
+  "full_build_policy_frozen": false,
+  "production_primary_constructed": false,
+  "real_data_gate_passed": false,
+  "primary_model_scoring_authorized": false,
+  "gpu_execution_authorized": false
+}

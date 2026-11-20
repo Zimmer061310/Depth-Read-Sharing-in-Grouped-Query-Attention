@@ -1,0 +1,25 @@
+{
+  "scope": "protected_checkpoint_relay_only_v1",
+  "seed_profile_sha256": "5257eeee7f04311b94da3170a825d0886e10ed659d523b495f962bd0cb40c731",
+  "source": {
+    "host": "connect.bjb2.seetacloud.com",
+    "user": "root",
+    "port": null,
+    "host_key_alias": "[connect.bjb2.seetacloud.com]:51555",
+    "hostname": null,
+    "checkout": null,
+    "directory": null,
+    "python": "/root/venvs/mhar-exp7/bin/python"
+  },
+  "receiver": {
+    "host": "connect.bjb2.seetacloud.com",
+    "user": "root",
+    "port": 34820,
+    "host_key_alias": "[connect.bjb2.seetacloud.com]:51555",
+    "hostname": "autodl-container-7f54409de1-88110ae3",
+    "checkout": null,
+    "directory": null,
+    "python": "/root/venvs/mhar-exp7/bin/python"
+  },
+  "spool_parent": null
+}

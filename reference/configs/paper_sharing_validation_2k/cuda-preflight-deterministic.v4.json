@@ -1,0 +1,14 @@
+{
+  "format_version": 1,
+  "contract_id": "paper-sharing-deterministic-preflight-v4",
+  "base_contract_sha256": "d260e83b886b76fba3b61dfa90ec0734c588dc22417cb6e64092fb2bb2ce46b9",
+  "runtime_policy": "strict-determinism-v1",
+  "job_prefix": "pspf-v4",
+  "job_count": 34,
+  "job_scope": "all_33_new_gpu_checks_plus_independent_compact_backup_no_prior_receipt_reuse",
+  "unchanged": ["numeric_thresholds", "dimensions", "matrix", "seeds", "debug_inputs", "update_counts", "resume_phases", "timing_counts", "precision", "scientific_recipe", "cost_caps"],
+  "hypothesis": "strict deterministic CUDA execution restores canonical full-model repeatability; cause not established by prior diagnostics",
+  "required_loss_gradient_weight_and_exact_resume_gates": true,
+  "old_failed_attempts_preserved": true,
+  "ready_for_training": false
+}

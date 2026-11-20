@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "policy_id": "strict-determinism-v1",
+  "status": "repair_candidate_not_cuda_verified",
+  "author_request": "2026-10-15: fix it and resume the run",
+  "canonical_policy_sha256": "b79bc0893d2fbd7c04fcded199dc5f9e89d27e50148b8c1109b5988f0e985909",
+  "failed_canonical_contract_sha256": "d260e83b886b76fba3b61dfa90ec0734c588dc22417cb6e64092fb2bb2ce46b9",
+  "deterministic_algorithms": true,
+  "deterministic_warn_only": false,
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "cublas_workspace_config": ":4096:8",
+  "attention_implementation": "sdpa",
+  "attention_backend_override": null,
+  "precision_change": false,
+  "preserve": ["architecture", "initialization", "data", "optimizer", "schedule", "batch", "gradient_checkpointing", "numeric_thresholds"],
+  "automatic_fallback_or_retry": false,
+  "new_gpu_evidence_required": true,
+  "ready_for_training": false
+}
