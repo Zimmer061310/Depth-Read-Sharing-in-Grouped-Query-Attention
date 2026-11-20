@@ -3,171 +3,171 @@
     "paper/figures/all-read-effects.pdf": {
       "original_sha256": "0c13a37b272303b80ea6d7b7d0d41faa684347ca3ddc6c06e5f6d2268869b257",
       "sha256": "0c13a37b272303b80ea6d7b7d0d41faa684347ca3ddc6c06e5f6d2268869b257",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/all-read-effects.pdf",
       "transformation": "none"
     },
     "paper/figures/all-read-effects.svg": {
       "sha256": "c94ee9fe823f3059e2089672a68dd186e26970669c47441148cb760a8c315712",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/all-read-effects.svg"
     },
     "paper/figures/consumer-sharing-method.pdf": {
       "original_sha256": "79fa2b870aefa55970e0c664a85cdba3d35d4df9aae2377ea906ef323facc4ec",
       "sha256": "79fa2b870aefa55970e0c664a85cdba3d35d4df9aae2377ea906ef323facc4ec",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/consumer-sharing-method.pdf",
       "transformation": "none"
     },
     "paper/figures/consumer-sharing-method.svg": {
       "sha256": "ef6ecd931a976dbd7a9ce01d3192fe843448618339f76729d4d51ddade8b18f0",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/consumer-sharing-method.svg"
     },
     "paper/figures/fixed-read-effects.pdf": {
       "original_sha256": "7af42cf37efe8593da7b0baaf54761a50aca770bf1bb448b56bd147d813d8c58",
       "sha256": "7af42cf37efe8593da7b0baaf54761a50aca770bf1bb448b56bd147d813d8c58",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/fixed-read-effects.pdf",
       "transformation": "none"
     },
     "paper/figures/fixed-read-effects.svg": {
       "sha256": "4f3fc4b6eb945879f97312af2fa9cd4c0c7c45572175560f00c47d603e246910",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/fixed-read-effects.svg"
     },
     "paper/figures/fresh-seed-effects.pdf": {
       "original_sha256": "4812b5c3c629707006b959d216c45d5183d9e6f85461ec613e5608e0a6f742b3",
       "sha256": "4812b5c3c629707006b959d216c45d5183d9e6f85461ec613e5608e0a6f742b3",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/fresh-seed-effects.pdf",
       "transformation": "none"
     },
     "paper/figures/fresh-seed-effects.svg": {
       "sha256": "87bec00fa07282003f28ac6761b59a96ae9fb8b730bcf25e078da4aa93c1f36c",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/fresh-seed-effects.svg"
     },
     "paper/figures/route-profiles-abbc.pdf": {
       "original_sha256": "7fec93f8f6a52f240213932dd9f0e0d82d9effd372b0b33a44589b876b90f578",
       "sha256": "7fec93f8f6a52f240213932dd9f0e0d82d9effd372b0b33a44589b876b90f578",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/route-profiles-abbc.pdf",
       "transformation": "none"
     },
     "paper/figures/route-profiles-abbc.svg": {
       "sha256": "8c45e836e6524b160a140d6cdc84ea71a00e90589c10d8b71803c2408dc4ac06",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/route-profiles-abbc.svg"
     },
     "paper/figures/source-depth-aaab.pdf": {
       "original_sha256": "c648b7f5895ff42b7c3bb484e77694d182591509c2fb5814463462da8e9de5e4",
       "sha256": "c648b7f5895ff42b7c3bb484e77694d182591509c2fb5814463462da8e9de5e4",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/source-depth-aaab.pdf",
       "transformation": "none"
     },
     "paper/figures/source-depth-aaab.svg": {
       "sha256": "a04e7612f258cdf2568e8ca02912c556132af4450f91bda7b16568e0e3816146",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/source-depth-aaab.svg"
     },
     "paper/figures/source-depth-abbc.pdf": {
       "original_sha256": "ecc57c5331dc55c49add8fb40f2bfccd2e6fe7471c0b2a425b12777aafe6f609",
       "sha256": "ecc57c5331dc55c49add8fb40f2bfccd2e6fe7471c0b2a425b12777aafe6f609",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/source-depth-abbc.pdf",
       "transformation": "none"
     },
     "paper/figures/source-depth-abbc.svg": {
       "sha256": "f820407bc730d64bcefa4d220deef711f31e0c935b96e51c65f7cca5ccfc8eff",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/source-depth-abbc.svg"
     },
     "paper/figures/topology-space.pdf": {
       "original_sha256": "1e69e90ae2f19849e65c039bfb3f7c344b7eb7982b04a30b9e6246060a7a2d64",
       "sha256": "1e69e90ae2f19849e65c039bfb3f7c344b7eb7982b04a30b9e6246060a7a2d64",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/topology-space.pdf",
       "transformation": "none"
     },
     "paper/figures/topology-space.svg": {
       "sha256": "dfda0ab8637474797c60836618d8e56b5bf85b83993ae5383b32b3a1b36288ce",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/topology-space.svg"
     },
     "paper/figures/training-read-effects.pdf": {
       "original_sha256": "dfed34423ecf8448d4536e721dfec6638c000d9f48bb36347414ff0a743b4178",
       "sha256": "dfed34423ecf8448d4536e721dfec6638c000d9f48bb36347414ff0a743b4178",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/training-read-effects.pdf",
       "transformation": "none"
     },
     "paper/figures/training-read-effects.svg": {
       "sha256": "0c035a4efee2eac6cc3dcd4b5c9055f2a532e37307ecdd753f6414cbd26382d0",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/figures/training-read-effects.svg"
     },
     "paper/main.tex": {
       "original_sha256": "4ffab06b45c144cbd1a76275025cd3fdd76c3b2f9417df755497b308203f593f",
       "sha256": "4ffab06b45c144cbd1a76275025cd3fdd76c3b2f9417df755497b308203f593f",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/main.tex",
       "transformation": "repository link only"
     },
     "paper/references.bib": {
       "original_sha256": "6dddc9683dd3e2122a713a46921556ea125e4709d077ce8f4580eb0d21a40095",
       "sha256": "6dddc9683dd3e2122a713a46921556ea125e4709d077ce8f4580eb0d21a40095",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/references.bib",
       "transformation": "none"
     },
     "paper/tables/all-patterns.tex": {
       "original_sha256": "67e2dfda164d3d92c41ab67c5533a8208e75fb924faaa2aa8927c39852a9bd81",
       "sha256": "67e2dfda164d3d92c41ab67c5533a8208e75fb924faaa2aa8927c39852a9bd81",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/tables/all-patterns.tex",
       "transformation": "none"
     },
     "paper/tables/all-seed-contrasts.tex": {
       "original_sha256": "18221aa638f2db1d7601667817d7b6288bde1b0d002950e3b96b5b91bad81e9b",
       "sha256": "18221aa638f2db1d7601667817d7b6288bde1b0d002950e3b96b5b91bad81e9b",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/tables/all-seed-contrasts.tex",
       "transformation": "none"
     },
     "paper/tables/all-seed-losses.tex": {
       "original_sha256": "78ea49af92a686f600e9c49fca69b3b22feb07977fd30f8b17d9a4eeea3a22a1",
       "sha256": "78ea49af92a686f600e9c49fca69b3b22feb07977fd30f8b17d9a4eeea3a22a1",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/tables/all-seed-losses.tex",
       "transformation": "none"
     },
     "paper/tables/canonical-timing.tex": {
       "original_sha256": "af0141c165df5b3ba412d5be80056eb348d73ba5c9de4f3e96a26cce4ff3eac0",
       "sha256": "af0141c165df5b3ba412d5be80056eb348d73ba5c9de4f3e96a26cce4ff3eac0",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/tables/canonical-timing.tex",
       "transformation": "none"
     },
     "paper/tables/nine-contrasts.tex": {
       "original_sha256": "f790400825baadde4b1d9346c4f79cc725eb6dbfea372714f0581600fb9f7074",
       "sha256": "f790400825baadde4b1d9346c4f79cc725eb6dbfea372714f0581600fb9f7074",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/tables/nine-contrasts.tex",
       "transformation": "none"
     },
     "paper/tables/nine-losses.tex": {
       "original_sha256": "0f600d9358de9ef5fa09b887811ac1617c6a743933bbd3d01c0f8d9f373a6e99",
       "sha256": "0f600d9358de9ef5fa09b887811ac1617c6a743933bbd3d01c0f8d9f373a6e99",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/tables/nine-losses.tex",
       "transformation": "none"
     },
     "paper/tables/parameters.tex": {
       "original_sha256": "3bdab7bc83e1565c9854e1bb9c567b0ab1dd6a92b024bc8277e56db06130402d",
       "sha256": "3bdab7bc83e1565c9854e1bb9c567b0ab1dd6a92b024bc8277e56db06130402d",
-      "source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+      "source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
       "source_path": "manuscripts/depth-read-sharing/tables/parameters.tex",
       "transformation": "none"
     },
@@ -647,7 +647,7 @@
       "source_path": "tests/test_paper_sharing_training.py"
     }
   },
-  "manuscript_source_commit": "3d2611cb03b0426ef2f4844a0c7496d20f3ea0fe",
+  "manuscript_source_commit": "812b898c040036c96ec14166c398932f4821f6e0",
   "reference_source_commit": "1ec77bb7f48b6f19edd1fc1da6351305f6f961ef",
   "scope": "Frozen scientific sources retain original bytes and names; curated scores omit infrastructure fields.",
   "score_projections": [
