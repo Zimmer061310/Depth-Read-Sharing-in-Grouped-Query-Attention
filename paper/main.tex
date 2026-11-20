@@ -335,7 +335,6 @@ projections, even when their input read is shared. Added read queries copy
 the native zero-initialized query without consuming RNG, then train
 independently. Thus the comparisons retain the same physical query layout
 and begin with equal depth mixtures and matched common parameters and data.
-Appendix~\ref{app:evidence} summarizes the numerical consistency controls.
 
 The reference models use driver 595.71.05; the four additional two-read
 conditions use 580.76.05, with the remaining frozen recipe/runtime controls retained.
@@ -365,16 +364,17 @@ three-read comparisons. Thus all seven tested multi-read candidates improve
 in every fixed seed, without implying that all sharing patterns are equally useful.
 
 \begin{table}[!ht]
-\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\centering\small\setlength{\tabcolsep}{4pt}
 \input{tables/all-patterns.tex}
 \caption{Common follow-up evaluation at 2,000 updates, three seeds per pattern.
 $\Delta$ is candidate minus \route{AAAA}; SD is the sample SD of paired seed
 differences, not a confidence interval. PPL reduction is
 $100(1-\exp(\overline\Delta))$. Pass denotes the frozen two-read rule;
-three-read rows remain descriptive. The driver column gives each model's
-training driver; $^{*}$marks a mismatch with the \route{AAAA} reference.
-An update-101 bridge does not establish equivalence at 2,000 updates. References are reused,
-not retrained for the two-read assignment study.}
+three-read rows remain descriptive. Bold marks the lowest observed mean
+loss. $^{*}$marks a driver mismatch with the \route{AAAA} reference
+(Section~\ref{sec:design}); an update-101 bridge does not establish
+endpoint equivalence. References are reused, not retrained for the two-read
+assignment study.}
 \label{tab:all-patterns}
 \end{table}
 
@@ -467,6 +467,29 @@ improvement is not an equivalence result.}
 \label{fig:fresh-effects}
 \end{figure}
 
+\subsection{How do differences evolve during early training?}
+\label{sec:dynamics}
+Figure~\ref{fig:training-effects} follows paired batch training losses
+through the observed 2,000 updates. For \route{AAAB}, \route{AABC} and
+\route{ABBC}, mean gains over \route{AAAA} exceed 0.12 nats around updates
+1,200--1,400, then narrow to about 0.071--0.073 nats in the final bin.
+The other two-read patterns also show different trajectories. These are
+training-loss curves, not repeated held-out evaluations or evidence of
+convergence. The endpoint learning rate remains \LastLRPercent{}\% of peak;
+the curves do not establish persistence or ranking over the full schedule.
+Sampling and binning are specified in Appendix~\ref{app:training-curves}.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\textwidth]{figures/training-read-effects.pdf}
+\caption{Mean paired training-loss differences from \route{AAAA}, using
+common recorded steps and 200-update bins (Appendix~\ref{app:training-curves}). Curves
+average three seed differences; no confidence band is implied. Panels
+separate two-read and three-read patterns. The vertical line and pale shading mark the 1,000-update warmup. $^{*}$Driver differs from the \route{AAAA} references.
+These are batch training losses, not repeated primary evaluations.}
+\label{fig:training-effects}
+\end{figure}
+
 \subsection{Does the value read use a distinct depth mixture?}
 \label{sec:source-profiles}
 Post-result forward probes expose the source weights of the six trained
@@ -525,6 +548,34 @@ reads compare with each other. These are mean source weights, not mean
 tokenwise entropy. Head/seed averaging can hide heterogeneous differences.
 Both figures reuse existing checkpoints and add no training or loss scores.}
 \label{fig:source-depth-aaab}
+\end{figure}
+\paragraph{Archival tokenwise diagnostics.}
+A complementary seed-42 probe of \route{ABBC}
+(Figure~\ref{fig:route-abbc}) measures concentration and read differences
+before averaging tokens. Value-assigned $C$ has lower mean normalized
+entropy than $A$ or $B$, while the mean source-distribution JS divergence
+between $A$ and $B$ is smaller than either pair involving $C$.
+The archival confirmation view retains these mean orderings. This is a
+single-checkpoint diagnostic, distinct from the three-seed source-weight
+maps above; it does not explain their loss differences or establish
+\route{ABBC} superiority. Appendix~\ref{app:route-profiles} defines these
+averages and their relationship to the mean-weight maps.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/route-profiles-abbc.pdf}
+\caption{Archival \route{ABBC} read profiles. Blue $A$ feeds $Q_1$, red
+$B$ feeds $Q_2,K$, and green $C$ feeds $V$. (a--c) Normalized individual-read
+entropy on $[0,1]$; (d--f) all three pairwise source-distribution JS maps on
+$[0,0.30]$ nats, without clipping. Cells average 1,023 valid query positions
+per sequence, then 32 sequences. Layer 0 has only one source and is gray;
+panel means equally weight layers 1--35 and eight feature heads. Darker colored cells
+mean higher entropy; darker grayscale cells mean greater divergence.
+$A$ and $B$ are closer on average than either is to $C$, with localized
+differences across layers and feature heads. This is an archival
+seed-42 single-checkpoint observation, not a replicated mechanism or evidence for
+\route{ABBC} superiority. Colors identify reads, not positive or negative effects.}
+\label{fig:route-abbc}
 \end{figure}
 \FloatBarrier
 
@@ -649,12 +700,12 @@ The horizon is the main limit on interpretation. Each model sees 65.5M input
 positions, about 0.061 supervised targets per parameter, and half its updates
 are in warmup. The last learning rate is \LastLRPercent{}\% of peak.
 Training-loss gaps grow and then narrow within this window
-(Appendix~\ref{app:dynamics}). The endpoint losses establish early quality
+(Section~\ref{sec:dynamics}). The endpoint losses establish early quality
 differences; persistence through a completed schedule remains unmeasured.
 Three fixed seeds, one corpus/model setting, reused checkpoints and evaluation
 documents from one exclusion pool also limit generality. Document-ID
 exclusion is not a near-duplicate audit, and seed 123 had prior engineering
-exposure (Appendix~\ref{app:amendment}). Longer-horizon comparisons on one
+exposure (Appendix~\ref{app:protocol}). Longer-horizon comparisons on one
 driver, equal-compute evaluation and matched external methods remain open.
 
 The archival full-width two-read and three-read screens motivated the fresh
@@ -1070,8 +1121,17 @@ determinism on an RTX 5090.
 The additional two-read models use the same native-query copying rule;
 common initial parameters, query-slot rows and training streams are matched
 within each seed. The shared-read control has only its single active router.
-Short-run consistency checks are described in Appendix~\ref{app:evidence};
-strict determinism alone does not establish equivalence between drivers.
+Short-run continuation checks compare uninterrupted execution and two
+independent resumes at update 101. These checks and strict determinism do
+not establish full-horizon equivalence between drivers.
+
+The seed list was amended from $123,2025,3407$ to $2026,613,123$ before
+scientific training. Seed 123 had already been used for 100-update
+engineering trials and continuations to update 101; their training metrics
+were recorded before the amendment was first documented. All scientific
+model and optimizer states start from scratch, with the seed-123 training
+stream reused. Decision timing relative to prior metric access is not
+independently established.
 
 \subsection{Source pool and deterministic document selection}
 \label{app:data-selection}
@@ -1189,6 +1249,14 @@ resolution, not an adopted significance test. Shared reference models and
 seeds prevent treating the 21 favorable multi-read/parent signs as 21
 independent trials.
 
+\subsection{Training-curve summaries}
+\label{app:training-curves}
+Figure~\ref{fig:training-effects} summarizes training losses at the
+intersection of recorded steps across all 24 runs. Every tenth update is
+used, excluding step 500 everywhere because its \route{AAAB}, seed-2026
+monitoring row is absent. Each 200-update bin therefore contains 20 samples
+per run except updates 401--600, which contain 19. No missing loss is imputed.
+
 \section{All Per-Seed Endpoint Results}
 \label{app:scores}
 The two artifacts are reported separately. The original nine models,
@@ -1206,89 +1274,50 @@ $\WithinDriverSeedFirst$, $\WithinDriverSeedSecond$ and $\WithinDriverSeedThird$
 nats/target; the main text reports their mean and sample SD.
 This post-result contrast adds no frozen decision.
 
-\begin{table}[!ht]
-\centering\small
-\input{tables/nine-losses.tex}
-\caption{Completed nine-run validation on the original primary artifact.
-Loss is token-weighted nats per supervised target, lower is better. Every
-checkpoint is step 2,000; the Mean row weights seeds equally. These absolute
-losses must not be pooled with the follow-up artifact in Table~\ref{tab:stage-a-loss}.}
+\begin{table}[!htbp]
+\centering
+{\small\textbf{(a) Endpoint losses}\par\smallskip
+\input{tables/nine-losses.tex}}
+\par\medskip
+{\small\setlength{\tabcolsep}{4pt}
+\textbf{(b) Predeclared ABBC contrasts}\par\smallskip
+\input{tables/nine-contrasts.tex}}
+\caption{Original-primary three-read replication at 2,000 updates.
+(a) Loss in nats/target; bold marks the lowest observed loss in each seed
+row and the equally weighted Mean row, not statistical superiority.
+(b) Paired \route{ABBC} differences; SD uses three seed differences
+(ddof=1). Both improvement criteria fail. This artifact tests
+\route{AAAB}/\route{AABC}/\route{ABBC}; \route{AAAA} was not scored on it.
+The common-follow-up baseline comparisons appear in
+Table~\ref{tab:followup-per-seed}; absolute losses are not pooled across artifacts.}
 \label{tab:fresh-nine}
-\end{table}
-\begin{table}[!ht]
-\centering\footnotesize\setlength{\tabcolsep}{4pt}
-\input{tables/nine-contrasts.tex}
-\caption{Original-primary paired candidate-minus-reference differences.
-SD is the sample SD of three paired training-seed differences (ddof=1), not a
-standard error or sequence confidence interval. Primary promotion requires
-all three differences $<0$ and mean $\leq-0.0025$; allocation promotion additionally
-requires mean $\leq-0.0015$ and primary success. Decisions use unrounded records.}
 \label{tab:fresh-decisions}
 \end{table}
-\begin{table}[!ht]
-\centering\small
-\input{tables/stage_a-losses.tex}
-\caption{Shared-read follow-up artifact: all twelve endpoint losses in nats/target.
-Only the three \route{AAAA} models are new trainings; the nine candidate
-checkpoints are reused from Table~\ref{tab:fresh-nine}. Means weight seeds
-equally. The different artifact explains why these absolute loss values are
-not interchangeable with original-primary values.}
+
+\begin{table}[!htbp]
+\centering\small\setlength{\tabcolsep}{3pt}
+\textbf{(a) All eight patterns on the common follow-up}\par\smallskip
+\input{tables/all-seed-losses.tex}
+\par\medskip
+\textbf{(b) All candidate-minus-AAAA contrasts}\par\smallskip
+\input{tables/all-seed-contrasts.tex}
+\caption{Common-follow-up evaluation at 2,000 updates.
+(a) All 24 endpoint losses; bold marks the lowest observed value in each
+row, with means weighting seeds equally. (b) All seven comparisons with
+\route{AAAA}; SD is the sample SD of the paired seed differences.
+The five two-read patterns pass the predeclared practical rule; the
+three-read rows remain descriptive. $^{*}$Driver differs from the
+\route{AAAA} reference, as specified in Section~\ref{sec:design}; bold
+values do not establish driver-controlled superiority. The original nine
+checkpoints are reused from Table~\ref{tab:fresh-nine}, and shared
+reference scores are reused without retraining or rescoring.}
+\label{tab:followup-per-seed}
 \label{tab:stage-a-loss}
-\end{table}
-\begin{table}[!ht]
-\centering\footnotesize\setlength{\tabcolsep}{4pt}
-\input{tables/stage_a-contrasts.tex}
-\caption{Shared-read paired differences against \route{AAAA}, all fixed seeds.
-Only \route{AAAB} is the frozen primary. The other rows remain descriptive,
-not additional promoted tests. SD uses the three paired differences, ddof=1;
-no p-value, confidence interval or population-significance claim is attached.}
 \label{tab:stage-a-contrast}
-\end{table}
-\begin{table}[!ht]
-\centering\small
-\input{tables/stage_b-losses.tex}
-\caption{The twelve additional two-read endpoint losses, completing the
-eight-pattern matrix together with Table~\ref{tab:stage-a-loss}. Same
-follow-up artifact and 2,000-update horizon; driver 580.76.05 rather than
-the reference models' 595.71.05. These are new trainings, not rescored
-original candidates.}
 \label{tab:stage-b-loss}
-\end{table}
-\begin{table}[!ht]
-\centering\footnotesize\setlength{\tabcolsep}{4pt}
-\input{tables/stage_b-contrasts.tex}
-\caption{Additional two-read paired differences against exact reused \route{AAAA}
-scores. Each new two-read pattern passes the same practical rule as
-\route{AAAB}; together they complete the frozen five-member family.
-Cross-driver comparisons remain explicitly qualified.}
 \label{tab:stage-b-contrast}
 \end{table}
-
-\section{Training Dynamics at an Early Endpoint}
-\label{app:dynamics}
-Figure~\ref{fig:training-effects} summarizes training losses at the
-intersection of recorded steps across all 24 runs. Every tenth update is
-used, excluding step 500 everywhere because its \route{AAAB}, seed-2026
-monitoring row is absent. Each 200-update bin therefore contains 20 samples
-per run except updates 401--600, which contain 19. No missing loss is imputed.
-
-The stronger candidate gaps grow near the warmup transition and then narrow.
-The original three candidates exceed 0.12 nats mean training improvement
-around updates 1,200--1,400, declining to about 0.071--0.073 in the final bin.
-This is a training-trajectory observation, not a held-out trajectory,
-overfitting diagnosis or forecast of the 20K ranking. The last update uses
-learning rate 0.000496937 against peak 0.0005, rather than a completed decay.
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=\textwidth]{figures/training-read-effects.pdf}
-\caption{Mean paired training-loss differences from \route{AAAA}, using
-the common recorded steps and 200-update bins described above. Curves
-average three seed differences; no confidence band is implied. Panels
-separate two-read and three-read patterns. The vertical line and pale shading mark the 1,000-update warmup. $^{*}$Driver differs from the \route{AAAA} references.
-These are batch training losses, not repeated primary evaluations.}
-\label{fig:training-effects}
-\end{figure}
+\FloatBarrier
 
 \section{Source-Depth Profile Methods}
 \label{app:source-profiles}
@@ -1353,6 +1382,38 @@ has only the embedding and contributes no choice, so it is excluded from
 this distance. Per-sequence/head arrays and per-seed source means are
 retained. These profiles describe access weights; causal importance and
 the effect of retraining an altered read remain different questions.
+
+\subsection{Archival tokenwise diagnostics}
+\label{app:route-profiles}
+Figure~\ref{fig:route-abbc} uses the first 32 ordered discovery sequences
+from the archival seed-42 checkpoint. Each cell summarizes one attention
+layer and one MHAR feature-routing head, not a GQA group. Entropy and
+Jensen--Shannon (JS) divergence are computed per token before averaging;
+they are not computed from the mean source-weight distributions.
+
+For one token, receiving layer and feature head, write $p_i,q_i$ for two
+reads' native softmax weights converted to FP32, with $N=2\ell+1$ sources.
+The probe uses $m_i=(p_i+q_i)/2$, $c(v)=\max(v,10^{-30})$, and
+$\operatorname{xlogy}(a,b)=a\ln b$ with $\operatorname{xlogy}(0,b)=0$:
+\begin{align}
+ \mathsf H(p)&=-\frac{\sum_i\operatorname{xlogy}(p_i,p_i)}{\ln N},
+       \qquad N>1,\\
+ \mathsf J(p,q)&=\frac12\sum_i\left[
+   \operatorname{xlogy}\!\left(p_i,\frac{c(p_i)}{c(m_i)}\right)
+  +\operatorname{xlogy}\!\left(q_i,\frac{c(q_i)}{c(m_i)}\right)\right].
+ \label{eq:archival-diagnostics}
+\end{align}
+At layer 0, $N=1$ and the code returns zero entropy and divergence; these
+cells are masked and excluded from panel means. Each cell averages 1,023
+token positions and then 32 sequences; panel means equally weight layers
+1--35 and all eight feature heads. The native rounded weights are not
+renormalized. Thus these are the source-faithful entropy/JS diagnostics
+on near-normalized weights, rather than a new FP64 probability reconstruction.
+The saved archival probes contain entropy and divergence summaries rather
+than full source-depth probability tensors. The newer mean-weight maps in
+Section~\ref{sec:source-profiles} use three reused training seeds and a
+separate evaluation artifact. The two diagnostics therefore differ in both
+aggregation and checkpoint/evaluation scope.
 
 \section{Archival Development Evidence}
 \label{sec:results}
@@ -1462,7 +1523,7 @@ Graph & Partition & Archival Loss & Evidence/statistical role \\
 \route{AAAA} & $Q_1Q_2KV$ & \LossAAAA & Imported MHAR parent \\
 \route{ABAA} & $(Q_1KV)\mid Q_2$ & \LossABAA & Predeclared primary \\
 \route{AABA} & $(Q_1Q_2V)\mid K$ & \LossAABA & Secondary family \\
-\route{AAAB} & $(Q_1Q_2K)\mid V$ & \LossAAAB & Discovery-selected; descriptively lowest \\
+\route{AAAB} & $(Q_1Q_2K)\mid V$ & \textbf{\LossAAAB} & Discovery-selected; descriptively lowest \\
 \route{AABB} & $(Q_1Q_2)\mid(KV)$ & \LossAABB & Secondary family \\
 \route{ABBA} & $(Q_1V)\mid(Q_2K)$ & \LossABBA & Secondary family \\
 \bottomrule
@@ -1506,67 +1567,6 @@ query-GEMM layout. It motivated the fresh matched comparison rather than
 establishing allocation-only causality. Frozen-checkpoint collapse and
 interpolation probes diagnose dependence in co-adapted models; they do not
 measure the benefit of retraining the intervened architecture.
-
-\subsection{Archival routing profiles}
-\label{app:route-profiles}
-The retained archival \route{ABBC} passive probe complements the mean
-source-weight maps with tokenwise summaries. Each cell summarizes one attention layer and
-one of eight MHAR feature-routing heads; this axis is distinct from GQA
-group identity. Colored panels show source-distribution entropy normalized
-by the log of the available source count. Lower entropy means a more
-concentrated read. Grayscale panels show pairwise Jensen--Shannon (JS)
-divergence in nats, which measures differences in source allocation that
-entropy alone cannot resolve. These are means of tokenwise quantities,
-not entropy or JS computed after averaging the probability distributions.
-
-For one token, receiving layer and feature head, write $p_i,q_i$ for two
-reads' native softmax weights converted to FP32, with $N=2\ell+1$ sources.
-The probe uses $m_i=(p_i+q_i)/2$, $c(v)=\max(v,10^{-30})$, and
-$\operatorname{xlogy}(a,b)=a\ln b$ with $\operatorname{xlogy}(0,b)=0$:
-\begin{align}
- \mathsf H(p)&=-\frac{\sum_i\operatorname{xlogy}(p_i,p_i)}{\ln N},
-       \qquad N>1,\\
- \mathsf J(p,q)&=\frac12\sum_i\left[
-   \operatorname{xlogy}\!\left(p_i,\frac{c(p_i)}{c(m_i)}\right)
-  +\operatorname{xlogy}\!\left(q_i,\frac{c(q_i)}{c(m_i)}\right)\right].
- \label{eq:archival-diagnostics}
-\end{align}
-At layer 0, $N=1$ and the code returns zero entropy and divergence; these
-cells are masked and excluded from panel means. Each cell averages 1,023
-token positions and then 32 sequences; panel means equally weight layers
-1--35 and all eight feature heads. The native rounded weights are not
-renormalized. Thus these are the source-faithful entropy/JS diagnostics
-on near-normalized weights, rather than a new FP64 probability reconstruction.
-
-Figure~\ref{fig:route-abbc} uses the first 32 ordered discovery sequences
-from the archival seed-42 checkpoint. Value-assigned $C$ has lower mean
-normalized entropy than $A$ or $B$. The mean
-$A$--$B$ source-distribution JS is smaller than either pair involving $C$.
-The matching confirmation view retains these qualitative mean orderings.
-These observations describe the sampled checkpoint; they neither identify
-which source depths are favored nor explain the fresh loss comparisons.
-The saved probes contain entropy and divergence summaries, not the full
-source-depth probability tensors. These archival panels reuse those saved
-summaries; the fresh source-weight maps are in
-Section~\ref{sec:source-profiles}, with methods in
-Appendix~\ref{app:source-profiles}.
-
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=\textwidth]{figures/route-profiles-abbc.pdf}
-\caption{Archival \route{ABBC} read profiles. Blue $A$ feeds $Q_1$, red
-$B$ feeds $Q_2,K$, and green $C$ feeds $V$. (a--c) Normalized individual-read
-entropy on $[0,1]$; (d--f) all three pairwise source-distribution JS maps on
-$[0,0.30]$ nats, without clipping. Cells average 1,023 valid query positions
-per sequence, then 32 sequences. Layer 0 has only one source and is gray;
-panel means equally weight layers 1--35 and eight feature heads. Darker colored cells
-mean higher entropy; darker grayscale cells mean greater divergence.
-$A$ and $B$ are closer on average than either is to $C$, with localized
-differences across layers and feature heads. This is an archival
-seed-42 single-checkpoint observation, not a replicated mechanism or evidence for
-\route{ABBC} superiority. Colors identify reads, not positive or negative effects.}
-\label{fig:route-abbc}
-\end{figure}
 
 \subsection{Topology-screen evaluation and resampling}
 \label{app:archival-evaluation}
@@ -1900,38 +1900,6 @@ secondary family, and $0.975$ for the three-read refinement's two-member family.
 analysis uses a fixed RNG-call order. None of these intervals
 models variation over model retraining or repairs cross-sequence document
 dependence.
-
-\section{Seed Selection and Prior Exposure}
-\label{app:amendment}
-The original seed list $123,2025,3407$ was amended on 18 October to
-$2026,613,123$ before scientific training. The recorded reason is author
-preference; models, horizon, data exclusions and decision margins were unchanged.
-Before the amendment was first recorded, seed 123 had already been used for
-100-update engineering trials and continuations to update 101 for
-\route{AAAB}, \route{AABC} and \route{ABBC}, and their short-run training
-metrics had been recorded. The available chronology does not independently
-establish when the author's decision or metric access occurred.
-
-All scientific model and optimizer states are initialized from scratch;
-only the seed-123 data order is reused. Seed 123 therefore remains exposed
-to development rather than an unexposed replication seed.
-
-\section{Numerical Consistency Checks}
-\label{app:evidence}
-The controls check matched common initial parameters, query-slot assignments
-and within-seed training streams. Component tests compare BF16 projection
-outputs and gradients with matched-shape references, including headwise FP32
-calculations and equal-input cases. Full-model loss and vector--Jacobian
-product checks assess repeatability of the canonical execution path; they
-do not establish equivalence to an optimized backend.
-
-For the original three assignments, real-stream continuation checks compare
-complete states at update 101 between uninterrupted execution and two
-independent resumes from update 100. These short-run checks passed under
-the accepted numerical policy. They do not establish full-horizon driver
-equivalence or determinism for arbitrary execution policies. Detailed control
-records, artifact identities and the engineering history are provided in the
-companion reproducibility materials.
 
 \begin{thebibliography}{99}
 \bibitem{attnres2026}

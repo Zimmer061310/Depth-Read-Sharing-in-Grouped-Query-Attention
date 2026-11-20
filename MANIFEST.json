@@ -25,8 +25,8 @@
       "sha256": "18d819c77279c7af56f43d9d5bc65fa96cf660684a82312132be509d688b40ef"
     },
     "SOURCE-MAP.json": {
-      "bytes": 48851,
-      "sha256": "98a6a629b0a15159d629846491406f7f4127cc54e18e5794ad724dbbe0765119"
+      "bytes": 48041,
+      "sha256": "9f09811fdf9b24f54824642f3f48501136b47d0bdba7e1b74249a2350f9199ee"
     },
     "configs/data-policies/gate-b-policy.frozen.json": {
       "bytes": 3852,
@@ -125,16 +125,24 @@
       "sha256": "0c035a4efee2eac6cc3dcd4b5c9055f2a532e37307ecdd753f6414cbd26382d0"
     },
     "paper/main.tex": {
-      "bytes": 111920,
-      "sha256": "f5006972be530e5ff5e835c5b3c2b7fcbba070a113ffc4cd989a1c75abe58ea0"
+      "bytes": 110099,
+      "sha256": "4ffab06b45c144cbd1a76275025cd3fdd76c3b2f9417df755497b308203f593f"
     },
     "paper/references.bib": {
       "bytes": 13544,
       "sha256": "6dddc9683dd3e2122a713a46921556ea125e4709d077ce8f4580eb0d21a40095"
     },
     "paper/tables/all-patterns.tex": {
-      "bytes": 852,
-      "sha256": "2aaff1fff42c2ed7e4057f79511fc5be15f095c027e7c115e3d6fa4ae3742d57"
+      "bytes": 755,
+      "sha256": "67e2dfda164d3d92c41ab67c5533a8208e75fb924faaa2aa8927c39852a9bd81"
+    },
+    "paper/tables/all-seed-contrasts.tex": {
+      "bytes": 758,
+      "sha256": "18221aa638f2db1d7601667817d7b6288bde1b0d002950e3b96b5b91bad81e9b"
+    },
+    "paper/tables/all-seed-losses.tex": {
+      "bytes": 656,
+      "sha256": "78ea49af92a686f600e9c49fca69b3b22feb07977fd30f8b17d9a4eeea3a22a1"
     },
     "paper/tables/canonical-timing.tex": {
       "bytes": 323,
@@ -145,28 +153,12 @@
       "sha256": "f790400825baadde4b1d9346c4f79cc725eb6dbfea372714f0581600fb9f7074"
     },
     "paper/tables/nine-losses.tex": {
-      "bytes": 296,
-      "sha256": "8a10c6a8fb323b4d765b59121b944a2a3b1aa4cfe1e6531567ec02f3e4fa204d"
+      "bytes": 332,
+      "sha256": "0f600d9358de9ef5fa09b887811ac1617c6a743933bbd3d01c0f8d9f373a6e99"
     },
     "paper/tables/parameters.tex": {
       "bytes": 325,
       "sha256": "3bdab7bc83e1565c9854e1bb9c567b0ab1dd6a92b024bc8277e56db06130402d"
-    },
-    "paper/tables/stage_a-contrasts.tex": {
-      "bytes": 441,
-      "sha256": "59a0b058b13fac407626b6ca20ff67c2b39e8214cde5e4c32da9a770b8c97609"
-    },
-    "paper/tables/stage_a-losses.tex": {
-      "bytes": 356,
-      "sha256": "b7416389d04de0d782fe937c762927a8e0fac248479e6a9c43f7c3096dd4bc77"
-    },
-    "paper/tables/stage_b-contrasts.tex": {
-      "bytes": 474,
-      "sha256": "1696343ab46fe7baa7d9b9bcabf45562ca3a83e347d127fd806b3c94d65b181f"
-    },
-    "paper/tables/stage_b-losses.tex": {
-      "bytes": 365,
-      "sha256": "94c6a121d7300bbfad4fd8560d7f3a01189b3c4412aa5fe57b24187ecdac01f7"
     },
     "reference/configs/paper_sharing_validation_2k/canonical-training-policy.v1.json": {
       "bytes": 1492,
