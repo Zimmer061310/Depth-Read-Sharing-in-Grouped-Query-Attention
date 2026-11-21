@@ -1,0 +1,148 @@
+{
+  "files": {
+    "results/expected.json": {
+      "bytes": 4380,
+      "sha256": "2b542138bbaff3bb7bb89cdf1aed61fd4de26cb8d83a596c04e64c07818d0022"
+    },
+    "results/scores.csv": {
+      "bytes": 4016,
+      "sha256": "8b35825ddfbf0b90b9535adbdeb0c1e246259aaf153cd62ad00372a3ace2049b"
+    },
+    "results/scores/followup/AAAA-seed123.json": {
+      "bytes": 96765,
+      "sha256": "2715e06f611b8bb2e551697a095dda201a4181b752425e4f87bc881ab358413f"
+    },
+    "results/scores/followup/AAAA-seed2026.json": {
+      "bytes": 96757,
+      "sha256": "db45c05e1266ca1b4b947a53024cc98cdf42f20f5fe8149677d9750ff5267306"
+    },
+    "results/scores/followup/AAAA-seed613.json": {
+      "bytes": 96774,
+      "sha256": "716419d03d4ccd90b1d68f6942a0c499926c186b8829e577ea12f4a20693821b"
+    },
+    "results/scores/followup/AAAB-seed123.json": {
+      "bytes": 96765,
+      "sha256": "52a38f1125d55e86f13e061eb39950abfea6f43baa5519b6b437d1444cc2ce17"
+    },
+    "results/scores/followup/AAAB-seed2026.json": {
+      "bytes": 96783,
+      "sha256": "cd231ff3bba8581025278cf9b532ebd60a57da27b5ae569420137d31f632b3b3"
+    },
+    "results/scores/followup/AAAB-seed613.json": {
+      "bytes": 96823,
+      "sha256": "0eedee4c6cde1e8c06bf02228327d6e29c73acb4ef41ea88db47aedcc14e278e"
+    },
+    "results/scores/followup/AABA-seed123.json": {
+      "bytes": 96779,
+      "sha256": "be68734029d7a7f3eee81c506c1607ccb5d632d4d7b9dd83bc36b4db2fedc7c4"
+    },
+    "results/scores/followup/AABA-seed2026.json": {
+      "bytes": 96770,
+      "sha256": "f2cb6f05a64334c4add65c606535c260b484e29cd4fb6aa62db4fb10222c4313"
+    },
+    "results/scores/followup/AABA-seed613.json": {
+      "bytes": 96775,
+      "sha256": "e184e5a30f63b182465a729d0928e8daac628a27832481545256af5fcfae778c"
+    },
+    "results/scores/followup/AABB-seed123.json": {
+      "bytes": 96787,
+      "sha256": "f101ba8af800c514adf3a6a0d121366403d3f0d1a806ec8339d92c06fec37ddf"
+    },
+    "results/scores/followup/AABB-seed2026.json": {
+      "bytes": 96762,
+      "sha256": "d216b2f59c8a09770ee5367d4bdbfa47ff7374df25f77eee45175b23ca167cd6"
+    },
+    "results/scores/followup/AABB-seed613.json": {
+      "bytes": 96739,
+      "sha256": "326c1c9f5e0f1b4ed5d7a236e346f6f8fe76b972584f4f08219ee3d2b0c0adfa"
+    },
+    "results/scores/followup/AABC-seed123.json": {
+      "bytes": 96778,
+      "sha256": "7fbce872d6369f10285137ca357106df5dcf65666c1734f68d0c5ac3ae882056"
+    },
+    "results/scores/followup/AABC-seed2026.json": {
+      "bytes": 96788,
+      "sha256": "7f9b56762cf1136eb8088814147e1cb3b7e89f679e67ae3febe5188626cb244f"
+    },
+    "results/scores/followup/AABC-seed613.json": {
+      "bytes": 96766,
+      "sha256": "7cf06df0dcba30a706bea4da213ea455957ea630792c2c77944842a4cd7b3b5e"
+    },
+    "results/scores/followup/ABAA-seed123.json": {
+      "bytes": 96755,
+      "sha256": "4441a4532c8c2701a340143e6fc7c341cdee1cf2d97c0fc9e95e708d1e46c87a"
+    },
+    "results/scores/followup/ABAA-seed2026.json": {
+      "bytes": 96736,
+      "sha256": "2c5ebc28258e4380ec626b72063a7f41fa8ce44542ba9d68975160b10350ef6d"
+    },
+    "results/scores/followup/ABAA-seed613.json": {
+      "bytes": 96744,
+      "sha256": "7a1df2c65a3a667a940e1d9c971ecabb45129372d20a6ca35a90a640474bcd22"
+    },
+    "results/scores/followup/ABBA-seed123.json": {
+      "bytes": 96784,
+      "sha256": "b28db0b5b9f89744dd0f11d0b11aa5426cd676924746cae4dba493c03f6d75e0"
+    },
+    "results/scores/followup/ABBA-seed2026.json": {
+      "bytes": 96774,
+      "sha256": "c235375e0357575062e20836ce7e02a2d0957e7a94b6ae8844fb76e4c157c351"
+    },
+    "results/scores/followup/ABBA-seed613.json": {
+      "bytes": 96772,
+      "sha256": "83ec1fa89db975bd180c7c863e9500e0f2ce438f5a2b26bf411a66ee2d68791b"
+    },
+    "results/scores/followup/ABBC-seed123.json": {
+      "bytes": 96768,
+      "sha256": "289a0ca2d016d90c6605f43a905cd79ae0333ef8b2efb72b1e84c3e0c7797544"
+    },
+    "results/scores/followup/ABBC-seed2026.json": {
+      "bytes": 96768,
+      "sha256": "91e72d2cd94cec99b637da0b40daacecef9e0cd6b819abc92c44f4456b4cc08e"
+    },
+    "results/scores/followup/ABBC-seed613.json": {
+      "bytes": 96776,
+      "sha256": "75a2b7006a63524fd75691bec399bb65e4839afa6d49bcd2036142ce9ff6a520"
+    },
+    "results/scores/original-primary/AAAB-seed123.json": {
+      "bytes": 96805,
+      "sha256": "e5dcec6dccdf81d342be4ab471db6dcec7eb599fc4ae5805d2d4f4f629fbebe7"
+    },
+    "results/scores/original-primary/AAAB-seed2026.json": {
+      "bytes": 96850,
+      "sha256": "0b16856a32cff152218dc9148b029e554183b67f05eee202599244e66e085858"
+    },
+    "results/scores/original-primary/AAAB-seed613.json": {
+      "bytes": 96820,
+      "sha256": "8a200374dafa06bbb15e581b4ab1ce452a1cb91970a9aade86647ee18285805e"
+    },
+    "results/scores/original-primary/AABC-seed123.json": {
+      "bytes": 96845,
+      "sha256": "1b2d5ec1d2953a8b50d1733c2ed0b09c8c7771b2a7246107cfd6074a2e92f34d"
+    },
+    "results/scores/original-primary/AABC-seed2026.json": {
+      "bytes": 96833,
+      "sha256": "bf22b7f8c0145e5d987fae6add01fd96d0f90b734cd08233db453eb8bc1677c9"
+    },
+    "results/scores/original-primary/AABC-seed613.json": {
+      "bytes": 96850,
+      "sha256": "bade93a88cb824c62668959b57c9de5d6682ccd9f692f1f29eca86c1800f5aff"
+    },
+    "results/scores/original-primary/ABBC-seed123.json": {
+      "bytes": 96852,
+      "sha256": "8a470bb2bc9de6774010cb4fd15cf7a82d4a2dcae6f85280e7ed3edab0748364"
+    },
+    "results/scores/original-primary/ABBC-seed2026.json": {
+      "bytes": 96828,
+      "sha256": "102a213ab344ef6c6e34805db1705b6703bac2b673a63910a8dc9e2bdcb09f15"
+    },
+    "results/scores/original-primary/ABBC-seed613.json": {
+      "bytes": 96832,
+      "sha256": "a1f8ba78deaaf66843af6f4468c53d62e2f794973dc9dfcb35c8128943f717be"
+    },
+    "results/training-dynamics.json": {
+      "bytes": 47015,
+      "sha256": "d7e5e41dafe163f1798de12f0a8e8fab9d11ef7e6fbbfa570694c03cdc487f13"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify release bytes and independently reproduce all 33 saved scores."""
+"""Verify saved-result bytes and independently reproduce all 33 saved scores."""
 from pathlib import Path
 import csv
 import hashlib
@@ -13,7 +13,7 @@ def close(a,b):assert math.isclose(a,b,rel_tol=0,abs_tol=2e-12),(a,b)
 
 
 def main():
-    manifest=read('MANIFEST.json')
+    manifest=read('results/checksums.json')
     for name,spec in manifest['files'].items():
         p=ROOT/name;raw=p.read_bytes()
         assert len(raw)==spec['bytes'] and hashlib.sha256(raw).hexdigest()==spec['sha256'],name
@@ -43,7 +43,7 @@ def main():
             if r['role']!='descriptive':
                 assert (all(d<0 for d in ds) and statistics.mean(ds)<=r['margin'])==r['numerical_gate']
     assert all(not r['numerical_gate'] for r in expected['original_primary_contrasts'])
-    print('PASS: release hashes; 24 checkpoints / 33 sequence-aggregated scores; separate artifacts; paired means/SDs and unchanged decisions.')
+    print('PASS: saved-result hashes; 24 checkpoints / 33 sequence-aggregated scores; separate artifacts; paired means/SDs and unchanged decisions.')
     print('Saved numerical evidence only; no training, scoring or seed-significance claim.')
 
 

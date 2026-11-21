@@ -1,0 +1,128 @@
+{
+  "evaluated_source_commit": "1ec77bb7f48b6f19edd1fc1da6351305f6f961ef",
+  "files": {
+    "src/attention_residuals/__init__.py": {
+      "original_path": "src/attention_residuals/__init__.py",
+      "original_sha256": "b54c218a3a2d16e4aadba77d7aaf69255c62d057c227dbf8641cef175eff6922",
+      "sha256": "b54c218a3a2d16e4aadba77d7aaf69255c62d057c227dbf8641cef175eff6922"
+    },
+    "src/attention_residuals/mhar_partition.py": {
+      "original_path": "src/attention_residuals/mhar_partition.py",
+      "original_sha256": "9a229a2dddd0180613b22c9216b6693e0c1fcf05305e0d3eac21cc4de86ba742",
+      "sha256": "9a229a2dddd0180613b22c9216b6693e0c1fcf05305e0d3eac21cc4de86ba742"
+    },
+    "src/attention_residuals/mhar_triton.py": {
+      "original_path": "src/attention_residuals/mhar_triton.py",
+      "original_sha256": "d374310489f36b4da91a9555e69dd1099bc393b344ca00885ec2553fd3e6c227",
+      "sha256": "d374310489f36b4da91a9555e69dd1099bc393b344ca00885ec2553fd3e6c227"
+    },
+    "src/attention_residuals/modeling_qwen3_attnres.py": {
+      "original_path": "src/attention_residuals/modeling_qwen3_attnres.py",
+      "original_sha256": "8f0ad2dc00274c791833da57cddd6ccf364e82857d2bc5bf5912776ccdce6d6b",
+      "sha256": "8f0ad2dc00274c791833da57cddd6ccf364e82857d2bc5bf5912776ccdce6d6b"
+    },
+    "src/experiments/__init__.py": {
+      "original_path": "src/experiments/__init__.py",
+      "original_sha256": "7991dbef1ff2818b58f63b4e19a7e0c227c70d7b9d2fbf4a8f41605bd11d2cce",
+      "sha256": "7991dbef1ff2818b58f63b4e19a7e0c227c70d7b9d2fbf4a8f41605bd11d2cce"
+    },
+    "src/experiments/experiment11_soft_specialization.py": {
+      "original_path": "src/experiments/experiment11_soft_specialization.py",
+      "original_sha256": "61c8db065e1e0d10cfea1eb57107203976e4958947b23b368537ec683c0f3956",
+      "sha256": "61c8db065e1e0d10cfea1eb57107203976e4958947b23b368537ec683c0f3956"
+    },
+    "src/experiments/experiment19_role_specific_routing.py": {
+      "original_path": "src/experiments/experiment19_role_specific_routing.py",
+      "original_sha256": "ff15f1a78f719e59b3cb0c66f675f526ce3670603d2e7821210e0766e663eee1",
+      "sha256": "ff15f1a78f719e59b3cb0c66f675f526ce3670603d2e7821210e0766e663eee1"
+    },
+    "src/experiments/experiment20_multislot_routing.py": {
+      "original_path": "src/experiments/experiment20_multislot_routing.py",
+      "original_sha256": "47ad0a0e4edb23f0daee72501554347214b1a14fcb26ebf6ae46875f0f43436e",
+      "sha256": "47ad0a0e4edb23f0daee72501554347214b1a14fcb26ebf6ae46875f0f43436e"
+    },
+    "src/experiments/experiment21_request_conditioned.py": {
+      "original_path": "src/experiments/experiment21_request_conditioned.py",
+      "original_sha256": "fb116ef9e5279d96991382ca02145be08febd63882295e358c022eb97bb36f93",
+      "sha256": "fb116ef9e5279d96991382ca02145be08febd63882295e358c022eb97bb36f93"
+    },
+    "src/experiments/experiment22_contrast_readout.py": {
+      "original_path": "src/experiments/experiment22_contrast_readout.py",
+      "original_sha256": "b671f27f1949e67d0f18a8ed2a722a4a4bee2c26c35989d67b9b6064cf338897",
+      "sha256": "b671f27f1949e67d0f18a8ed2a722a4a4bee2c26c35989d67b9b6064cf338897"
+    },
+    "src/experiments/experiment23_route_topology.py": {
+      "original_path": "src/experiments/experiment23_route_topology.py",
+      "original_sha256": "3c1f94dfd07d6dda239fed476c8fd9a01f27493d94ffc6ceedb08dc92a4cc5a6",
+      "sha256": "3c1f94dfd07d6dda239fed476c8fd9a01f27493d94ffc6ceedb08dc92a4cc5a6"
+    },
+    "src/experiments/experiment24_three_route.py": {
+      "original_path": "src/experiments/experiment24_three_route.py",
+      "original_sha256": "cb2de466dd3bf823cf0b3b5e3471e5cd6c21148b7cb87effbcc8804395bbf99a",
+      "sha256": "cb2de466dd3bf823cf0b3b5e3471e5cd6c21148b7cb87effbcc8804395bbf99a"
+    },
+    "src/experiments/experiment25_global_local.py": {
+      "original_path": "src/experiments/experiment25_global_local.py",
+      "original_sha256": "fd89112f74dd9a801ea017d3fbbeda985f554fe4d42f6e83badc9e761f782d0e",
+      "sha256": "fd89112f74dd9a801ea017d3fbbeda985f554fe4d42f6e83badc9e761f782d0e"
+    },
+    "src/experiments/experiment6_coupled_qkv.py": {
+      "original_path": "src/experiments/experiment6_coupled_qkv.py",
+      "original_sha256": "f447fd057b32c09c50846651bf91280b1b41ba7f9e65aca4e2bf13e24e08db7f",
+      "sha256": "f447fd057b32c09c50846651bf91280b1b41ba7f9e65aca4e2bf13e24e08db7f"
+    },
+    "src/experiments/experiment7_local_q.py": {
+      "original_path": "src/experiments/experiment7_local_q.py",
+      "original_sha256": "4d39ba6c9e60d1a479bf27376f924b2ee849d6a2060324df1b1b16b127101e63",
+      "sha256": "4d39ba6c9e60d1a479bf27376f924b2ee849d6a2060324df1b1b16b127101e63"
+    },
+    "src/experiments/experiment8_hybrid_q.py": {
+      "original_path": "src/experiments/experiment8_hybrid_q.py",
+      "original_sha256": "73516ba67e5868b8ea1f494fc1d6edacdd456ad599d1bdafb9a9b6bfc8459e2b",
+      "sha256": "73516ba67e5868b8ea1f494fc1d6edacdd456ad599d1bdafb9a9b6bfc8459e2b"
+    },
+    "src/experiments/paper_shared_read_baseline.py": {
+      "original_path": "src/experiments/paper_shared_read_baseline.py",
+      "original_sha256": "ea134e3d4656620c8cb8c54aa8bac97eb1fbe383512a4563da63dcf2a4348a81",
+      "sha256": "b16df35069d30a5e6f060f00be9300a225b0515095eab20f41fbef0a5ac6d2ef"
+    },
+    "src/experiments/paper_sharing_determinism.py": {
+      "original_path": "src/experiments/paper_sharing_determinism.py",
+      "original_sha256": "16fa25bc210286bea8c156f15431e31f2213f12d72da21a39c013d93eef56b72",
+      "sha256": "962114d8f59bbde038bbe1d51d7c2a68323966ede62b24f428114c2f1ec8bbdf"
+    },
+    "src/experiments/paper_sharing_execution_policy.py": {
+      "original_path": "src/experiments/paper_sharing_execution_policy.py",
+      "original_sha256": "b2d748ddd12575ae0407d8b73dd66a55288a56e90cf99e3136a9dad3e25b7b31",
+      "sha256": "a18c16fa82a7e9cb09016f4a374cd850b790834bfe9fbf76b29500d92931fea9"
+    },
+    "src/experiments/paper_sharing_model.py": {
+      "original_path": "src/experiments/paper_sharing_model.py",
+      "original_sha256": "4ff84c6dc188162e631c6dda7afe7fa7959077d7a3d3aaaa6139fc63570b3759",
+      "sha256": "7189f247678daa3f629d771e2d35a8f0113bbb35451c82119098b3025b6bb8ef"
+    },
+    "src/experiments/paper_sharing_spec.py": {
+      "origin": "Sharing constants and ValueError helper extracted from original protocol/follow-up modules.",
+      "sha256": "2d3df3ad80c3fb25610c294cb6264a7c5a41f5feab786e8c19c61e266d15fcd4"
+    },
+    "src/experiments/paper_stage_b_baseline.py": {
+      "original_path": "src/experiments/paper_stage_b_baseline.py",
+      "original_sha256": "ac4955531acc6392c7de829e6f4125a55a5c13386f2542e3fa5e284ed6f9dea5",
+      "sha256": "a74ea4a288b17086d06e9541e6472d6e6c6f5d99204173c420b5ecc2a72fb3f0"
+    }
+  },
+  "original_public_release": "https://github.com/Zimmer061310/Depth-Read-Sharing-in-Grouped-Query-Attention/releases/tag/v1.0.0",
+  "packaging_changes": {
+    "description": "Replace workflow imports with literal sharing constants; remove unused production-configuration/preflight helpers; read scientifically scoped execution settings while retaining original model-config identity fields.",
+    "execution_settings": "../configs/execution.json",
+    "files": [
+      "src/experiments/paper_shared_read_baseline.py",
+      "src/experiments/paper_sharing_determinism.py",
+      "src/experiments/paper_sharing_execution_policy.py",
+      "src/experiments/paper_sharing_model.py",
+      "src/experiments/paper_stage_b_baseline.py"
+    ],
+    "historical_identity_note": "Execution/runtime SHA fields identify original evaluated policies, not the public settings projection."
+  },
+  "scope": "Model/operator implementations for the eight reported patterns and mathematical definitions of archival controls discussed in the appendices. Original computational class bodies are unchanged."
+}

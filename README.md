@@ -9,9 +9,6 @@ read when the reader is feature-adaptive MHAR?
 [Manuscript source](paper/main.tex) · [Results](results/scores.csv) ·
 [Reproduction](docs/REPRODUCTION.md) · [Data and release scope](docs/DATA.md)
 
-[arXiv v1 preparation](submission/README.md) provides a source-only upload
-builder and copyable form metadata from the checked-out manuscript.
-
 ![MHAR depth reads and GQA consumer sharing](paper/figures/consumer-sharing-method.svg)
 
 ## Main findings
@@ -50,8 +47,8 @@ python scripts/verify_results.py
 ```
 
 This checks every retained sequence-NLL aggregate, all 33 scores, checkpoint
-reuse, paired means/SDs, and the original improvement decisions. It also checks
-the release file manifest. It does not train or rescore a model.
+reuse, paired means/SDs, and the original improvement decisions. Saved-result
+checksums are supplied with the data. It does not train or rescore a model.
 
 ## Inspect the models
 
@@ -62,22 +59,23 @@ After installing them, run a reduced CPU fixture:
 python scripts/model_smoke.py
 ```
 
-The public `depth_read_sharing` entry point selects the original model classes
-for all eight patterns. `reference/` preserves their source and dependency
-files byte-for-byte, including historical internal filenames. It also contains
-the training, data and checkpoint primitives. The fixture checks the packaged
-model path; it is not production CUDA validation or a paper result.
+The `depth_read_sharing` entry point constructs all eight evaluated patterns.
+`reference/` retains the model/operator implementations and their numerical
+runtime settings. Computational class bodies are unchanged; packaging imports
+are separated from the original cloud-workflow code. Source attribution is
+recorded in [reference/PROVENANCE.json](reference/PROVENANCE.json).
+The fixture checks forward and backward execution with nonuniform depth reads;
+it is not production CUDA validation or a paper result.
 
 ## Repository layout
 
 - `paper/`: manuscript, included tables, PDF figures and editable SVGs.
 - `depth_read_sharing/`: small entry point for the eight evaluated patterns.
-- `reference/`: frozen scientific implementation and configuration dependencies.
+- `reference/`: evaluated model implementations and numerical runtime settings.
 - `results/`: 33 curated score records, sequence NLL/counts and training summaries.
-- `configs/study.json`: the reported model/training/evaluation specification.
-- `scripts/`: saved-result verification and an explicitly reduced model fixture.
-- `SOURCE-MAP.json`: original source and score-record identities.
-- `MANIFEST.json`: checksums for this release snapshot.
+- `configs/`: the reported model, training and data specifications.
+- `scripts/`: numerical verification and the reduced CPU model example.
+- `docs/`: reproduction instructions and data availability.
 
 ## Availability and attribution
 

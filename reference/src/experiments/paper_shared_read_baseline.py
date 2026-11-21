@@ -1,9 +1,4 @@
-"""Opt-in AAAA control with matched two-slot Q execution and NO dormant router.
-
-No changes to the completed paper classes or their three-condition validators.
-This model is intentionally rejected by the old production trainer/checkpointer.
-CPU fixtures/meta construction are not CUDA or launch-readiness evidence.
-"""
+"""Single-read MHAR control with matched two-slot query execution."""
 import copy
 from pathlib import Path
 
@@ -15,7 +10,7 @@ from src.experiments.experiment23_route_topology import Experiment23MHARForCausa
 from src.experiments.paper_sharing_execution_policy import POLICY_ID,POLICY_SHA256,canonical_policy
 from src.experiments.paper_sharing_determinism import RUNTIME_POLICY_ID,RUNTIME_POLICY_SHA256,runtime_binding
 from src.experiments.paper_sharing_model import _state_sha256,runtime_buffer_fingerprints
-from src.experiments.paper_shared_read_followup import require
+from src.experiments.paper_sharing_spec import require
 
 
 def configure(config, *, fixture=False):
@@ -69,16 +64,6 @@ def validate_config(config):
         require((config.num_hidden_layers,config.intermediate_size,config.vocab_size)==(36,5120,151936),
                 'reduced model only in explicit fixtures')
     runtime_binding(config)
-
-
-def production_config():
-    # Reuse the exact frozen architecture values; discard only experiment/paper
-    # dispatch metadata before setting the separate, explicit AAAA identity.
-    from src.experiments.paper_sharing_training import production_config as previous
-    cfg=copy.deepcopy(previous('AAAB',execution_policy=POLICY_ID,runtime_policy=RUNTIME_POLICY_ID))
-    for key in list(vars(cfg)):
-        if key.startswith(('experiment','paper_sharing')):delattr(cfg,key)
-    return configure(cfg)
 
 
 class SharedReadBaselineForCausalLM(Experiment23MHARForCausalLM):
