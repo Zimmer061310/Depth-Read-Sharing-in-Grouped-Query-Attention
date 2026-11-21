@@ -18,7 +18,7 @@ from torch import nn
 
 from src.attention_residuals.modeling_qwen3_attnres import Qwen3AttnResForCausalLM
 from src.experiments.experiment23_route_topology import Experiment23Attention
-from src.experiments.paper_sharing_protocol import MODELS, Q_HEADS, ROUTE_COUNTS
+from src.experiments.paper_sharing_spec import MODELS, Q_HEADS, ROUTE_COUNTS
 
 
 QUERY_EXECUTION = "two-slot-v1"

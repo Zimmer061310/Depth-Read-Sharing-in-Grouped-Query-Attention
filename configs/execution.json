@@ -1,0 +1,20 @@
+{
+  "router_backend": "canonical",
+  "query_projection_output_widths": [
+    640,
+    640
+  ],
+  "logical_query_head_order": "group_major_q2_then_q1",
+  "attention_implementation": "sdpa",
+  "deterministic_algorithms": true,
+  "deterministic_warn_only": false,
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "cublas_workspace_config": ":4096:8",
+  "historical_config_identities": {
+    "execution_policy_id": "canonical-training-v1",
+    "execution_policy_sha256": "b79bc0893d2fbd7c04fcded199dc5f9e89d27e50148b8c1109b5988f0e985909",
+    "runtime_policy_id": "strict-determinism-v1",
+    "runtime_policy_sha256": "f940caa0ac27a48aa179909425a420e1e5004a03b2f0f72e306cb92aa9568185"
+  }
+}

@@ -19,7 +19,7 @@ def build_config(pattern, *, fixture=False):
     from src.attention_residuals.modeling_qwen3_attnres import Qwen3AttnResConfig
     from src.experiments.paper_sharing_execution_policy import POLICY_ID
     from src.experiments.paper_sharing_determinism import RUNTIME_POLICY_ID
-    recipe=json.loads((REFERENCE/'configs/paper_sharing_validation_2k/training-recipe.frozen.json').read_text())
+    recipe=json.loads((REFERENCE.parent/'configs/study.json').read_text())
     cfg=Qwen3AttnResConfig(vocab_size=64 if fixture else recipe['model_vocab_size'],
         hidden_size=1280,num_hidden_layers=2 if fixture else 36,
         intermediate_size=128 if fixture else 5120,num_attention_heads=16,
