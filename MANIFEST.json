@@ -1,8 +1,8 @@
 {
   "files": {
     ".github/workflows/verify.yml": {
-      "bytes": 313,
-      "sha256": "4bce93374b121543d302933fa1677189c817abc4d373fb51957cb7a9c831e021"
+      "bytes": 433,
+      "sha256": "be2c38fe4ab8cf6c947a7d838ed976909d8f73ad43b2499c756f91d4c32495b5"
     },
     ".gitignore": {
       "bytes": 158,
@@ -21,12 +21,12 @@
       "sha256": "eb5c153171c8bb9ffbb8ba30877d2ed5c256121466f5167d264b794bd18d4810"
     },
     "README.md": {
-      "bytes": 3854,
-      "sha256": "18d819c77279c7af56f43d9d5bc65fa96cf660684a82312132be509d688b40ef"
+      "bytes": 4168,
+      "sha256": "fee6497700a48e11ce914332a0e910c607b6bac2bc5a5074382e14075fe5e25f"
     },
     "SOURCE-MAP.json": {
-      "bytes": 48041,
-      "sha256": "cfe23624d3010ff6e89a3517379c64fe9658cb700bf080c921c0f65b0ed95b29"
+      "bytes": 48313,
+      "sha256": "c8789995ae01c5c07343055534fab249bcea9a836d77ffee9ae94bee2756f04a"
     },
     "configs/data-policies/gate-b-policy.frozen.json": {
       "bytes": 3852,
@@ -61,12 +61,12 @@
       "sha256": "c94ee9fe823f3059e2089672a68dd186e26970669c47441148cb760a8c315712"
     },
     "paper/figures/consumer-sharing-method.pdf": {
-      "bytes": 79315,
-      "sha256": "79fa2b870aefa55970e0c664a85cdba3d35d4df9aae2377ea906ef323facc4ec"
+      "bytes": 69526,
+      "sha256": "fcffeb441fed2a07dc8d8888d5ede570d0c02c8153337b791091e85567b560fa"
     },
     "paper/figures/consumer-sharing-method.svg": {
-      "bytes": 103982,
-      "sha256": "ef6ecd931a976dbd7a9ce01d3192fe843448618339f76729d4d51ddade8b18f0"
+      "bytes": 72585,
+      "sha256": "e822b59a4bf6a371cf98486b55fc8fd972e6ca83c356b93336e2e14b42824bf4"
     },
     "paper/figures/fixed-read-effects.pdf": {
       "bytes": 43308,
@@ -125,8 +125,8 @@
       "sha256": "0c035a4efee2eac6cc3dcd4b5c9055f2a532e37307ecdd753f6414cbd26382d0"
     },
     "paper/main.tex": {
-      "bytes": 110099,
-      "sha256": "4ffab06b45c144cbd1a76275025cd3fdd76c3b2f9417df755497b308203f593f"
+      "bytes": 110429,
+      "sha256": "ec27e7afae88b3cd4d3df2b89e6c4a2189e871c27e73a06a47774887dedbbb86"
     },
     "paper/references.bib": {
       "bytes": 13544,
@@ -692,6 +692,10 @@
       "bytes": 825,
       "sha256": "d92a1ee81011c5a1355dd1291bd5aac3405e0ee3850ddff102546ba9034c9f73"
     },
+    "scripts/prepare_arxiv.py": {
+      "bytes": 8053,
+      "sha256": "457d3e2035587555b4e31ec9dd491bffd47ae8b2d7d817d31cec12bdf18627a2"
+    },
     "scripts/update_manifest.py": {
       "bytes": 744,
       "sha256": "854bf82f68797106741d1ee52196e6e21e7d5ebb30884a3445e31e3060264ff8"
@@ -699,6 +703,18 @@
     "scripts/verify_results.py": {
       "bytes": 2683,
       "sha256": "315996b856e6ef8508a03f83f12ae719684d8adf13e235263f48c8f65936e13c"
+    },
+    "submission/README.md": {
+      "bytes": 1842,
+      "sha256": "04a64def7d1709e17e62df494f8ac194a0733d28d1449daa58eb4c3f8497b2d7"
+    },
+    "submission/arxiv-v1.json": {
+      "bytes": 1017,
+      "sha256": "72129783250e6c7b998c86675a972c486bda20ab3b5cc76ef3699f0105a284f8"
+    },
+    "tests/test_prepare_arxiv.py": {
+      "bytes": 3802,
+      "sha256": "0a0fe4aa13fa05434a32498c8f3887a605e806cf597bdd411c888c85098b3fe1"
     }
   },
   "private_history_included": false,

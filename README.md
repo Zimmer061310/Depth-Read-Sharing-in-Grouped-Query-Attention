@@ -9,6 +9,9 @@ read when the reader is feature-adaptive MHAR?
 [Manuscript source](paper/main.tex) · [Results](results/scores.csv) ·
 [Reproduction](docs/REPRODUCTION.md) · [Data and release scope](docs/DATA.md)
 
+[arXiv v1 preparation](submission/README.md) provides a source-only upload
+builder and copyable form metadata from the checked-out manuscript.
+
 ![MHAR depth reads and GQA consumer sharing](paper/figures/consumer-sharing-method.svg)
 
 ## Main findings
@@ -78,10 +81,12 @@ model path; it is not production CUDA validation or a paper result.
 
 ## Availability and attribution
 
-This is a publication candidate. Model weights and training/evaluation token
+This is the manuscript's publication repository. Model weights and training/evaluation token
 payloads are not included. See [data availability](docs/DATA.md) and
 [attribution](NOTICE.md). Code retains the existing MIT license and upstream
-copyright notice; no new license is assigned here to the manuscript or datasets.
+copyright notice. The author selected the arXiv perpetual, non-exclusive
+license for the manuscript's arXiv version; this does not relicense the code
+or datasets. The work is self-funded and the author declares no competing interests.
 
 Please use [CITATION.cff](CITATION.cff) when citing the software. No arXiv
 identifier or publication venue has been assigned to this manuscript yet.
