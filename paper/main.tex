@@ -146,6 +146,9 @@ meet their predeclared practical rule, with mean reductions from
 their parent comparisons are cross-driver, and early parity at update 101
 does not establish endpoint driver equivalence. Among these four patterns,
 driver and read count match, yet the same loss ordering holds in every seed.
+Between the observed extremes, moving $K$ from the $Q_1,V$ read to the
+$Q_2$ read gives a mean paired difference of \WithinDriverMean{} nats/target;
+this contrast was selected after observing the results.
 Neither three-read pattern improves on the value-separated two-read control
 in every seed, and the selected refinement fails both predeclared criteria.
 All runs stop at 2,000 updates of a 20,000-update schedule, with learning rate
@@ -245,20 +248,20 @@ Figure~\ref{fig:method} illustrates the computation and representative assignmen
 \centering
 \includegraphics[width=\textwidth]{figures/consumer-sharing-method.pdf}
 \caption{The MHAR--GQA computation and its sharing interface.
-(a) At a fixed token position, source RMSNorm acts over the full model width
-before selecting a feature slice. A learned pseudo-query produces a softmax
-over depth sources; the mixture uses \emph{raw} source slices through the
-value bypass. Concatenating eight 160-coordinate mixtures gives one
-1,280-coordinate read. The operation repeats for each read and token
-position; reads share the site's source bank and source-normalization
-scales. The illustrated history is for $\ell>0$; layer 0 reads only the embedding.
-(b) Worked \route{AAAB}: $A$ supplies $Q_1,Q_2,K$ and $B$ supplies $V$.
-The input RMSNorm scales are shared between reads. Q/K head normalization
-and RoPE precede two causal token-attention maps using one common KV pair;
-$V$ receives neither head normalization nor RoPE. Native concatenation
-collects all eight groups, retaining the physical $Q_2,Q_1$ order within
-each group, before the output projection. The lower strip shows subsequent
-source appends and the unchanged single-read MLP.
+(a) At one token position, full-width source RMSNorm precedes feature
+slicing. An independently learned pseudo-query for each read and feature
+head produces a source-axis softmax; the weighted sum uses \emph{raw}
+source slices through the value bypass. Concatenating eight 160-coordinate
+mixtures gives one 1,280-coordinate read. Reads share the source bank and
+source-normalization scales. The illustrated history is for $\ell>0$;
+layer 0 reads only the embedding.
+(b) \route{AAAB}: $A$ supplies $Q_1,Q_2,K$ and $B$ supplies $V$.
+Each eight-block strip is one full-width MHAR read, reused across all eight
+GQA groups. The circles summarize input normalization and projection to
+80-coordinate attention heads. Q/K head normalization and RoPE are retained
+but not expanded; $V$ receives neither. Each group forms two query maps
+with one KV pair and returns $o_1,o_2$. All-group output
+concatenation/projection and later history updates are unchanged and omitted.
 (c) Compact sharing examples; merged boxes identify a common read and the
 connector joins non-adjacent members. The assignment is fixed; its mixtures
 are learned and input-dependent. MHAR feature heads and GQA groups are
@@ -735,11 +738,13 @@ outcomes open.
 
 \section*{Availability and Disclosures}
 Appendix~\ref{app:scores} reports all 33 endpoint scores from the 24 trained models.
-The code, configurations and per-seed results are in the repository linked on
-the title page. The repository is currently private and is planned for public
-release. Release terms for data and checkpoints remain to be finalized.
+The model code, configurations and curated per-seed score records are in the
+repository linked on the title page. The repository is currently private and
+is planned for public release. Model weights and packed token datasets are
+not included. This work was self-funded. The author declares no competing
+interests.
 AI assistance was used for analysis, drafting, source checks, manuscript
-review and LaTeX preparation.
+review and LaTeX preparation. The author takes responsibility for the manuscript.
 
 \clearpage
 \appendix
