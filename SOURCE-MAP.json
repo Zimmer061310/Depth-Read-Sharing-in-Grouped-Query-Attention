@@ -109,9 +109,9 @@
       "source_path": "manuscripts/depth-read-sharing/figures/training-read-effects.svg"
     },
     "paper/main.tex": {
-      "original_sha256": "efc8151926d2dc60ffed6cd734d5fd46c8fc20a5fdbbfd5593e51f6a73d5dd29",
-      "sha256": "efc8151926d2dc60ffed6cd734d5fd46c8fc20a5fdbbfd5593e51f6a73d5dd29",
-      "source_commit": "0d4d473c1330b7e0e3ed8523880432bf6bfa3892",
+      "original_sha256": "ec27e7afae88b3cd4d3df2b89e6c4a2189e871c27e73a06a47774887dedbbb86",
+      "sha256": "ec27e7afae88b3cd4d3df2b89e6c4a2189e871c27e73a06a47774887dedbbb86",
+      "source_commit": "7c41108cd798feb235a5c73a598977f52626936f",
       "source_path": "manuscripts/depth-read-sharing/main.tex",
       "transformation": "repository link only"
     },
@@ -647,12 +647,12 @@
       "source_path": "tests/test_paper_sharing_training.py"
     },
     "submission/arxiv-v1.json": {
-      "sha256": "5612ee00911e0d0bd67b6188adf098c9a62c6802778e485fb945d0f6943607bb",
-      "source_commit": "0d4d473c1330b7e0e3ed8523880432bf6bfa3892",
+      "sha256": "72129783250e6c7b998c86675a972c486bda20ab3b5cc76ef3699f0105a284f8",
+      "source_commit": "7c41108cd798feb235a5c73a598977f52626936f",
       "source_path": "manuscripts/depth-read-sharing/publication/arxiv-v1.json"
     }
   },
-  "manuscript_source_commit": "0d4d473c1330b7e0e3ed8523880432bf6bfa3892",
+  "manuscript_source_commit": "7c41108cd798feb235a5c73a598977f52626936f",
   "reference_source_commit": "1ec77bb7f48b6f19edd1fc1da6351305f6f961ef",
   "scope": "Frozen scientific sources retain original bytes and names; curated scores omit infrastructure fields.",
   "score_projections": [

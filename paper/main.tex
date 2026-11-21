@@ -1160,7 +1160,10 @@ excluded = first_4096_unique_ids(sorted_by=(rank, uid))
 \end{verbatim}
 \end{quote}
 Conflicting text under one native identity is rejected. The selection salt is
-\path{paper-sharing-fresh-2k-v1:primary:2026-10-14}. Selected documents are packed
+\begin{quote}\small
+\path{paper-sharing-fresh-2k-v1:primary:2026-10-14}.
+\end{quote}
+Selected documents are packed
 in rank/identity order for the primary artifact. All occurrences of the
 4,096 selected IDs are excluded before training shuffle and tokenization.
 Each training stream uses its scientific seed with a 10,000-document buffer

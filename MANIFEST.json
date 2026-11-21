@@ -26,7 +26,7 @@
     },
     "SOURCE-MAP.json": {
       "bytes": 48313,
-      "sha256": "caa11dfb26a0d2e167314b35328943ea46b334c793b32b1661e3b13cccc6d291"
+      "sha256": "c8789995ae01c5c07343055534fab249bcea9a836d77ffee9ae94bee2756f04a"
     },
     "configs/data-policies/gate-b-policy.frozen.json": {
       "bytes": 3852,
@@ -125,8 +125,8 @@
       "sha256": "0c035a4efee2eac6cc3dcd4b5c9055f2a532e37307ecdd753f6414cbd26382d0"
     },
     "paper/main.tex": {
-      "bytes": 110397,
-      "sha256": "efc8151926d2dc60ffed6cd734d5fd46c8fc20a5fdbbfd5593e51f6a73d5dd29"
+      "bytes": 110429,
+      "sha256": "ec27e7afae88b3cd4d3df2b89e6c4a2189e871c27e73a06a47774887dedbbb86"
     },
     "paper/references.bib": {
       "bytes": 13544,
@@ -705,12 +705,12 @@
       "sha256": "315996b856e6ef8508a03f83f12ae719684d8adf13e235263f48c8f65936e13c"
     },
     "submission/README.md": {
-      "bytes": 1838,
-      "sha256": "8766dbf749093fad3f64f6208297934585b74b42221110b35141c4a852128743"
+      "bytes": 1842,
+      "sha256": "04a64def7d1709e17e62df494f8ac194a0733d28d1449daa58eb4c3f8497b2d7"
     },
     "submission/arxiv-v1.json": {
-      "bytes": 1002,
-      "sha256": "5612ee00911e0d0bd67b6188adf098c9a62c6802778e485fb945d0f6943607bb"
+      "bytes": 1017,
+      "sha256": "72129783250e6c7b998c86675a972c486bda20ab3b5cc76ef3699f0105a284f8"
     },
     "tests/test_prepare_arxiv.py": {
       "bytes": 3802,

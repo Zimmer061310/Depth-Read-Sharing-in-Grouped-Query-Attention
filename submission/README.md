@@ -24,7 +24,7 @@ manuscript and confirmed self-funding and no competing interests. This
 selection does not change the model code's existing MIT license, release
 model weights or token datasets, or change repository visibility.
 
-Use cs.LG as the proposed primary category, with cs.CL as a proposed
+Use the author-selected cs.CL primary category, with cs.LG as a proposed
 cross-list. Classification is subject to arXiv moderation.
 Check the title, author and abstract in the form, inspect the PDF produced
 by arXiv, and verify the title page, Figure 1, source-depth maps, equations,

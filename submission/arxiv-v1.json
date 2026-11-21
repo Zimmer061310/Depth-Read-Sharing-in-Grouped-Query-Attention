@@ -1,8 +1,8 @@
 {
   "title": "Depth-Read Sharing in Grouped-Query Attention",
   "authors": ["Zimu Zhao"],
-  "primary_category": "cs.LG",
-  "cross_list_categories": ["cs.CL"],
+  "primary_category": "cs.CL",
+  "cross_list_categories": ["cs.LG"],
   "license": "arXiv perpetual, non-exclusive license 1.0",
   "license_url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
   "license_author_confirmed": true,
@@ -14,6 +14,6 @@
   "repository_visibility_during_preparation": "private",
   "model_weights_included": false,
   "packed_token_datasets_included": false,
-  "category_note": "Proposed classification for this MHAR/GQA language-model architecture study; subject to arXiv moderation.",
+  "category_note": "The author selected cs.CL primary. Request cs.LG cross-list if available; classification is subject to arXiv moderation.",
   "scope": "Upload preparation; does not grant a new code/data license, change repository visibility or complete an arXiv submission."
 }
