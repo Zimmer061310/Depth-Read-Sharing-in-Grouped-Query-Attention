@@ -25,6 +25,30 @@ with strict_runtime(fixture=True):
     model = build_model("AAAB", fixture=True)
 ```
 
+### Saving and loading a CPU fixture
+
+Pass the attention backend explicitly when loading a saved model. Transformers
+does not persist its private attention selector; the model's strict runtime
+guard requires the canonical SDPA backend and matching runtime context.
+
+```python
+from tempfile import TemporaryDirectory
+from depth_read_sharing import build_model, strict_runtime
+
+with strict_runtime(fixture=True), TemporaryDirectory() as path:
+    model = build_model("AAAB", fixture=True).eval()
+    model.save_pretrained(path)
+    restored = type(model).from_pretrained(
+        path, attn_implementation="sdpa"
+    ).eval()
+```
+
+`scripts/model_smoke.py` checks exact saved/reloaded logits and tied embeddings
+for all eight reduced CPU FP32 patterns. This example saves model weights and
+configuration; it does not save optimizer, RNG or data-stream state and is not
+a scientific training-resume procedure. The released repository includes no
+full-size checkpoint payloads.
+
 `fixture=False` selects the reported 36-layer configuration. Constructing that
 model allocates approximately 1.08B parameters. The numerical settings are
 listed in `configs/study.json`; the scientific runs used PyTorch 2.8.0+cu128,
@@ -35,6 +59,10 @@ Historical internal class/filenames remain for correspondence. Packaging-only
 changes and original source identities are recorded in
 `reference/PROVENANCE.json`. Cloud controllers, preflight contracts and launch
 authorization machinery are outside this paper repository.
+The optional archival multislot probe enabled through an external
+`_experiment20_probe_accumulator` is also outside the released API; its old
+analysis dependency is not included. The eight-pattern factory does not use
+that probe.
 
 ## Training and data
 

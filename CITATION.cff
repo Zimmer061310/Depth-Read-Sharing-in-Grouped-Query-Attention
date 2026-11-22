@@ -8,5 +8,6 @@ authors:
     email: zimmer061310@gmail.com
 repository-code: "https://github.com/Zimmer061310/Depth-Read-Sharing-in-Grouped-Query-Attention"
 url: "https://github.com/Zimmer061310/Depth-Read-Sharing-in-Grouped-Query-Attention"
-date-released: 2026-11-21
+version: 1.0.1
+date-released: 2026-11-22
 license: MIT

@@ -88,3 +88,8 @@ or datasets. The work is self-funded and the author declares no competing intere
 
 Please use [CITATION.cff](CITATION.cff) when citing the software. No arXiv
 identifier or publication venue has been assigned to this manuscript yet.
+
+The [v1.0.0 source archive](https://github.com/Zimmer061310/Depth-Read-Sharing-in-Grouped-Query-Attention/releases/tag/v1.0.0)
+preserves the submitted manuscript. The current source corrects the repository
+availability statement and a reference author; these corrections have not been
+submitted to arXiv. Scientific results are unchanged.
