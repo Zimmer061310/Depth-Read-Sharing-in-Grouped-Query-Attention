@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Reduced CPU model checks. No updates, corpus access or paper scoring."""
 from pathlib import Path
+from tempfile import TemporaryDirectory
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import torch
@@ -28,5 +29,14 @@ with strict_runtime(fixture=True):
         assert any(p.grad is not None and torch.count_nonzero(p.grad)>0
                    for name,p in model.named_parameters() if 'attn_res_proj.weight' in name)
         print('PASS:',pattern,'reduced CPU forward/backward',tuple(logits.shape))
+        with TemporaryDirectory() as path:
+            model.save_pretrained(path)
+            restored=type(model).from_pretrained(path,attn_implementation='sdpa').cpu().eval()
+            with torch.no_grad():
+                restored_logits=restored(input_ids=tokens).logits
+            assert torch.equal(logits.detach(),restored_logits)
+            assert restored.get_input_embeddings().weight.data_ptr()==restored.get_output_embeddings().weight.data_ptr()
+            print('PASS:',pattern,'explicit-SDPA save/reload and tied embeddings')
+            del restored,restored_logits
         del model,result,logits,gradients
 print('Engineering fixture only; no training or scientific evaluation performed.')
